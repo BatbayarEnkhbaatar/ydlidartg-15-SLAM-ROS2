@@ -1,0 +1,9 @@
+source;share/ydlidar_tg15/hook/pythonpath.ps1
+source;share/ydlidar_tg15/hook/pythonpath.dsv
+source;share/ydlidar_tg15/hook/pythonpath.sh
+source;share/ydlidar_tg15/hook/ament_prefix_path.ps1
+source;share/ydlidar_tg15/hook/ament_prefix_path.dsv
+source;share/ydlidar_tg15/hook/ament_prefix_path.sh
+source;../../build/ydlidar_tg15/share/ydlidar_tg15/hook/pythonpath_develop.ps1
+source;../../build/ydlidar_tg15/share/ydlidar_tg15/hook/pythonpath_develop.dsv
+source;../../build/ydlidar_tg15/share/ydlidar_tg15/hook/pythonpath_develop.sh

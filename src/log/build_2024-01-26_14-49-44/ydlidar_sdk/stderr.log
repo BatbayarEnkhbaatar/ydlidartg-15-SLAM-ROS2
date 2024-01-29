@@ -1,0 +1,761 @@
+In file included from [01m[K/home/ubuntu/ros2_WS/src/YDLidar-SDK/./core/common/DriverInterface.h:3[m[K,
+                 from [01m[K/home/ubuntu/ros2_WS/src/YDLidar-SDK/src/CYdLidar.h:48[m[K,
+                 from [01m[K/home/ubuntu/ros2_WS/src/YDLidar-SDK/src/CYdLidar.cpp:29[m[K:
+[01m[K/home/ubuntu/ros2_WS/src/YDLidar-SDK/./core/base/thread.h:[m[K In member function ‘[01m[Kint ydlidar::core::base::Thread::join(long unsigned int)[m[K’:
+[01m[K/home/ubuntu/ros2_WS/src/YDLidar-SDK/./core/base/thread.h:136:46:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%X[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 2 has type ‘[01m[K_size_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+  136 |           printf("[YDLIDAR DEBUG] Thread [0x[01;35m[K%X[m[K] ready to cancel[%d]\n", [32m[K_handle[m[K, s);
+      |                                             [01;35m[K~^[m[K                          [32m[K~~~~~~~[m[K
+      |                                              [01;35m[K|[m[K                          [32m[K|[m[K
+      |                                              [01;35m[Kunsigned int[m[K               [32m[K_size_t {aka long unsigned int}[m[K
+      |                                             [32m[K%lX[m[K
+[01m[K/home/ubuntu/ros2_WS/src/YDLidar-SDK/./core/base/thread.h:138:46:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%X[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 2 has type ‘[01m[K_size_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+  138 |           printf("[YDLIDAR DEBUG] Thread [0x[01;35m[K%X[m[K] ready to cancel[%d] time[%u]\n",
+      |                                             [01;35m[K~^[m[K
+      |                                              [01;35m[K|[m[K
+      |                                              [01;35m[Kunsigned int[m[K
+      |                                             [32m[K%lX[m[K
+  139 |             [32m[K_handle[m[K, s, getms() - t);
+      |             [32m[K~~~~~~~[m[K                           
+      |             [32m[K|[m[K
+      |             [32m[K_size_t {aka long unsigned int}[m[K
+[01m[K/home/ubuntu/ros2_WS/src/YDLidar-SDK/./core/base/thread.h:142:42:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%X[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 2 has type ‘[01m[K_size_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+  142 |             printf("[YDLIDAR] Thread [0x[01;35m[K%X[m[K] has been canceled in other thread\n", [32m[K_handle[m[K);
+      |                                         [01;35m[K~^[m[K                                        [32m[K~~~~~~~[m[K
+      |                                          [01;35m[K|[m[K                                        [32m[K|[m[K
+      |                                          [01;35m[Kunsigned int[m[K                             [32m[K_size_t {aka long unsigned int}[m[K
+      |                                         [32m[K%lX[m[K
+[01m[K/home/ubuntu/ros2_WS/src/YDLidar-SDK/./core/base/thread.h:147:74:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%X[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 3 has type ‘[01m[K_size_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+  147 |             fprintf(stderr, "[YDLIDAR] An error occurred while thread[0x[01;35m[K%X[m[K] cancelled!\n", [32m[K_handle[m[K);
+      |                                                                         [01;35m[K~^[m[K                 [32m[K~~~~~~~[m[K
+      |                                                                          [01;35m[K|[m[K                 [32m[K|[m[K
+      |                                                                          [01;35m[Kunsigned int[m[K      [32m[K_size_t {aka long unsigned int}[m[K
+      |                                                                         [32m[K%lX[m[K
+[01m[K/home/ubuntu/ros2_WS/src/YDLidar-SDK/./core/base/thread.h:151:40:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%X[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 2 has type ‘[01m[K_size_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+  151 |           printf("[YDLIDAR] Thread [0x[01;35m[K%X[m[K] has been canceled\n", [32m[K_handle[m[K);
+      |                                       [01;35m[K~^[m[K                        [32m[K~~~~~~~[m[K
+      |                                        [01;35m[K|[m[K                        [32m[K|[m[K
+      |                                        [01;35m[Kunsigned int[m[K             [32m[K_size_t {aka long unsigned int}[m[K
+      |                                       [32m[K%lX[m[K
+In file included from [01m[K/home/ubuntu/ros2_WS/src/YDLidar-SDK/src/ETLidarDriver.h:46[m[K,
+                 from [01m[K/home/ubuntu/ros2_WS/src/YDLidar-SDK/src/ETLidarDriver.cpp:32[m[K:
+[01m[K/home/ubuntu/ros2_WS/src/YDLidar-SDK/./core/base/thread.h:[m[K In member function ‘[01m[Kint ydlidar::core::base::Thread::join(long unsigned int)[m[K’:
+[01m[K/home/ubuntu/ros2_WS/src/YDLidar-SDK/./core/base/thread.h:136:46:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%X[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 2 has type ‘[01m[K_size_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+  136 |           printf("[YDLIDAR DEBUG] Thread [0x[01;35m[K%X[m[K] ready to cancel[%d]\n", [32m[K_handle[m[K, s);
+      |                                             [01;35m[K~^[m[K                          [32m[K~~~~~~~[m[K
+      |                                              [01;35m[K|[m[K                          [32m[K|[m[K
+      |                                              [01;35m[Kunsigned int[m[K               [32m[K_size_t {aka long unsigned int}[m[K
+      |                                             [32m[K%lX[m[K
+[01m[K/home/ubuntu/ros2_WS/src/YDLidar-SDK/./core/base/thread.h:138:46:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%X[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 2 has type ‘[01m[K_size_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+  138 |           printf("[YDLIDAR DEBUG] Thread [0x[01;35m[K%X[m[K] ready to cancel[%d] time[%u]\n",
+      |                                             [01;35m[K~^[m[K
+      |                                              [01;35m[K|[m[K
+      |                                              [01;35m[Kunsigned int[m[K
+      |                                             [32m[K%lX[m[K
+  139 |             [32m[K_handle[m[K, s, getms() - t);
+      |             [32m[K~~~~~~~[m[K                           
+      |             [32m[K|[m[K
+      |             [32m[K_size_t {aka long unsigned int}[m[K
+[01m[K/home/ubuntu/ros2_WS/src/YDLidar-SDK/./core/base/thread.h:142:42:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%X[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 2 has type ‘[01m[K_size_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+  142 |             printf("[YDLIDAR] Thread [0x[01;35m[K%X[m[K] has been canceled in other thread\n", [32m[K_handle[m[K);
+      |                                         [01;35m[K~^[m[K                                        [32m[K~~~~~~~[m[K
+      |                                          [01;35m[K|[m[K                                        [32m[K|[m[K
+      |                                          [01;35m[Kunsigned int[m[K                             [32m[K_size_t {aka long unsigned int}[m[K
+      |                                         [32m[K%lX[m[K
+[01m[K/home/ubuntu/ros2_WS/src/YDLidar-SDK/./core/base/thread.h:147:74:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%X[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 3 has type ‘[01m[K_size_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+  147 |             fprintf(stderr, "[YDLIDAR] An error occurred while thread[0x[01;35m[K%X[m[K] cancelled!\n", [32m[K_handle[m[K);
+      |                                                                         [01;35m[K~^[m[K                 [32m[K~~~~~~~[m[K
+      |                                                                          [01;35m[K|[m[K                 [32m[K|[m[K
+      |                                                                          [01;35m[Kunsigned int[m[K      [32m[K_size_t {aka long unsigned int}[m[K
+      |                                                                         [32m[K%lX[m[K
+[01m[K/home/ubuntu/ros2_WS/src/YDLidar-SDK/./core/base/thread.h:151:40:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%X[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 2 has type ‘[01m[K_size_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+  151 |           printf("[YDLIDAR] Thread [0x[01;35m[K%X[m[K] has been canceled\n", [32m[K_handle[m[K);
+      |                                       [01;35m[K~^[m[K                        [32m[K~~~~~~~[m[K
+      |                                        [01;35m[K|[m[K                        [32m[K|[m[K
+      |                                        [01;35m[Kunsigned int[m[K             [32m[K_size_t {aka long unsigned int}[m[K
+      |                                       [32m[K%lX[m[K
+In file included from [01m[K/home/ubuntu/ros2_WS/src/YDLidar-SDK/src/SDMLidarDriver.h:57[m[K,
+                 from [01m[K/home/ubuntu/ros2_WS/src/YDLidar-SDK/src/SDMLidarDriver.cpp:35[m[K:
+[01m[K/home/ubuntu/ros2_WS/src/YDLidar-SDK/./core/base/thread.h:[m[K In member function ‘[01m[Kint ydlidar::core::base::Thread::join(long unsigned int)[m[K’:
+[01m[K/home/ubuntu/ros2_WS/src/YDLidar-SDK/./core/base/thread.h:136:46:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%X[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 2 has type ‘[01m[K_size_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+  136 |           printf("[YDLIDAR DEBUG] Thread [0x[01;35m[K%X[m[K] ready to cancel[%d]\n", [32m[K_handle[m[K, s);
+      |                                             [01;35m[K~^[m[K                          [32m[K~~~~~~~[m[K
+      |                                              [01;35m[K|[m[K                          [32m[K|[m[K
+      |                                              [01;35m[Kunsigned int[m[K               [32m[K_size_t {aka long unsigned int}[m[K
+      |                                             [32m[K%lX[m[K
+[01m[K/home/ubuntu/ros2_WS/src/YDLidar-SDK/./core/base/thread.h:138:46:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%X[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 2 has type ‘[01m[K_size_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+  138 |           printf("[YDLIDAR DEBUG] Thread [0x[01;35m[K%X[m[K] ready to cancel[%d] time[%u]\n",
+      |                                             [01;35m[K~^[m[K
+      |                                              [01;35m[K|[m[K
+      |                                              [01;35m[Kunsigned int[m[K
+      |                                             [32m[K%lX[m[K
+  139 |             [32m[K_handle[m[K, s, getms() - t);
+      |             [32m[K~~~~~~~[m[K                           
+      |             [32m[K|[m[K
+      |             [32m[K_size_t {aka long unsigned int}[m[K
+[01m[K/home/ubuntu/ros2_WS/src/YDLidar-SDK/./core/base/thread.h:142:42:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%X[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 2 has type ‘[01m[K_size_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+  142 |             printf("[YDLIDAR] Thread [0x[01;35m[K%X[m[K] has been canceled in other thread\n", [32m[K_handle[m[K);
+      |                                         [01;35m[K~^[m[K                                        [32m[K~~~~~~~[m[K
+      |                                          [01;35m[K|[m[K                                        [32m[K|[m[K
+      |                                          [01;35m[Kunsigned int[m[K                             [32m[K_size_t {aka long unsigned int}[m[K
+      |                                         [32m[K%lX[m[K
+[01m[K/home/ubuntu/ros2_WS/src/YDLidar-SDK/./core/base/thread.h:147:74:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%X[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 3 has type ‘[01m[K_size_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+  147 |             fprintf(stderr, "[YDLIDAR] An error occurred while thread[0x[01;35m[K%X[m[K] cancelled!\n", [32m[K_handle[m[K);
+      |                                                                         [01;35m[K~^[m[K                 [32m[K~~~~~~~[m[K
+      |                                                                          [01;35m[K|[m[K                 [32m[K|[m[K
+      |                                                                          [01;35m[Kunsigned int[m[K      [32m[K_size_t {aka long unsigned int}[m[K
+      |                                                                         [32m[K%lX[m[K
+[01m[K/home/ubuntu/ros2_WS/src/YDLidar-SDK/./core/base/thread.h:151:40:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%X[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 2 has type ‘[01m[K_size_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+  151 |           printf("[YDLIDAR] Thread [0x[01;35m[K%X[m[K] has been canceled\n", [32m[K_handle[m[K);
+      |                                       [01;35m[K~^[m[K                        [32m[K~~~~~~~[m[K
+      |                                        [01;35m[K|[m[K                        [32m[K|[m[K
+      |                                        [01;35m[Kunsigned int[m[K             [32m[K_size_t {aka long unsigned int}[m[K
+      |                                       [32m[K%lX[m[K
+In file included from [01m[K/home/ubuntu/ros2_WS/src/YDLidar-SDK/core/serial/common.h:45[m[K,
+                 from [01m[K/home/ubuntu/ros2_WS/src/YDLidar-SDK/core/serial/serial.cpp:12[m[K:
+[01m[K/home/ubuntu/ros2_WS/src/YDLidar-SDK/./core/base/thread.h:[m[K In member function ‘[01m[Kint ydlidar::core::base::Thread::join(long unsigned int)[m[K’:
+[01m[K/home/ubuntu/ros2_WS/src/YDLidar-SDK/./core/base/thread.h:136:46:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%X[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 2 has type ‘[01m[K_size_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+  136 |           printf("[YDLIDAR DEBUG] Thread [0x[01;35m[K%X[m[K] ready to cancel[%d]\n", [32m[K_handle[m[K, s);
+      |                                             [01;35m[K~^[m[K                          [32m[K~~~~~~~[m[K
+      |                                              [01;35m[K|[m[K                          [32m[K|[m[K
+      |                                              [01;35m[Kunsigned int[m[K               [32m[K_size_t {aka long unsigned int}[m[K
+      |                                             [32m[K%lX[m[K
+[01m[K/home/ubuntu/ros2_WS/src/YDLidar-SDK/./core/base/thread.h:138:46:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%X[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 2 has type ‘[01m[K_size_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+  138 |           printf("[YDLIDAR DEBUG] Thread [0x[01;35m[K%X[m[K] ready to cancel[%d] time[%u]\n",
+      |                                             [01;35m[K~^[m[K
+      |                                              [01;35m[K|[m[K
+      |                                              [01;35m[Kunsigned int[m[K
+      |                                             [32m[K%lX[m[K
+  139 |             [32m[K_handle[m[K, s, getms() - t);
+      |             [32m[K~~~~~~~[m[K                           
+      |             [32m[K|[m[K
+      |             [32m[K_size_t {aka long unsigned int}[m[K
+[01m[K/home/ubuntu/ros2_WS/src/YDLidar-SDK/./core/base/thread.h:142:42:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%X[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 2 has type ‘[01m[K_size_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+  142 |             printf("[YDLIDAR] Thread [0x[01;35m[K%X[m[K] has been canceled in other thread\n", [32m[K_handle[m[K);
+      |                                         [01;35m[K~^[m[K                                        [32m[K~~~~~~~[m[K
+      |                                          [01;35m[K|[m[K                                        [32m[K|[m[K
+      |                                          [01;35m[Kunsigned int[m[K                             [32m[K_size_t {aka long unsigned int}[m[K
+      |                                         [32m[K%lX[m[K
+In file included from [01m[K/home/ubuntu/ros2_WS/src/YDLidar-SDK/src/GSLidarDriver.h:58[m[K,
+                 from [01m[K/home/ubuntu/ros2_WS/src/YDLidar-SDK/src/GSLidarDriver.cpp:36[m[K:
+[01m[K/home/ubuntu/ros2_WS/src/YDLidar-SDK/./core/base/thread.h:[m[K In member function ‘[01m[Kint ydlidar::core::base::Thread::join(long unsigned int)[m[K’:
+[01m[K/home/ubuntu/ros2_WS/src/YDLidar-SDK/./core/base/thread.h:136:46:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%X[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 2 has type ‘[01m[K_size_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+  136 |           printf("[YDLIDAR DEBUG] Thread [0x[01;35m[K%X[m[K] ready to cancel[%d]\n", [32m[K_handle[m[K, s);
+      |                                             [01;35m[K~^[m[K                          [32m[K~~~~~~~[m[K
+      |                                              [01;35m[K|[m[K                          [32m[K|[m[K
+      |                                              [01;35m[Kunsigned int[m[K               [32m[K_size_t {aka long unsigned int}[m[K
+      |                                             [32m[K%lX[m[K
+[01m[K/home/ubuntu/ros2_WS/src/YDLidar-SDK/./core/base/thread.h:147:74:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%X[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 3 has type ‘[01m[K_size_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+  147 |             fprintf(stderr, "[YDLIDAR] An error occurred while thread[0x[01;35m[K%X[m[K] cancelled!\n", [32m[K_handle[m[K);
+      |                                                                         [01;35m[K~^[m[K                 [32m[K~~~~~~~[m[K
+      |                                                                          [01;35m[K|[m[K                 [32m[K|[m[K
+      |                                                                          [01;35m[Kunsigned int[m[K      [32m[K_size_t {aka long unsigned int}[m[K
+      |                                                                         [32m[K%lX[m[K
+[01m[K/home/ubuntu/ros2_WS/src/YDLidar-SDK/./core/base/thread.h:138:46:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%X[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 2 has type ‘[01m[K_size_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+  138 |           printf("[YDLIDAR DEBUG] Thread [0x[01;35m[K%X[m[K] ready to cancel[%d] time[%u]\n",
+      |                                             [01;35m[K~^[m[K
+      |                                              [01;35m[K|[m[K
+      |                                              [01;35m[Kunsigned int[m[K
+      |                                             [32m[K%lX[m[K
+  139 |             [32m[K_handle[m[K, s, getms() - t);
+      |             [32m[K~~~~~~~[m[K                           
+      |             [32m[K|[m[K
+      |             [32m[K_size_t {aka long unsigned int}[m[K
+[01m[K/home/ubuntu/ros2_WS/src/YDLidar-SDK/./core/base/thread.h:151:40:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%X[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 2 has type ‘[01m[K_size_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+  151 |           printf("[YDLIDAR] Thread [0x[01;35m[K%X[m[K] has been canceled\n", [32m[K_handle[m[K);
+      |                                       [01;35m[K~^[m[K                        [32m[K~~~~~~~[m[K
+      |                                        [01;35m[K|[m[K                        [32m[K|[m[K
+      |                                        [01;35m[Kunsigned int[m[K             [32m[K_size_t {aka long unsigned int}[m[K
+      |                                       [32m[K%lX[m[K
+[01m[K/home/ubuntu/ros2_WS/src/YDLidar-SDK/./core/base/thread.h:142:42:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%X[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 2 has type ‘[01m[K_size_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+  142 |             printf("[YDLIDAR] Thread [0x[01;35m[K%X[m[K] has been canceled in other thread\n", [32m[K_handle[m[K);
+      |                                         [01;35m[K~^[m[K                                        [32m[K~~~~~~~[m[K
+      |                                          [01;35m[K|[m[K                                        [32m[K|[m[K
+      |                                          [01;35m[Kunsigned int[m[K                             [32m[K_size_t {aka long unsigned int}[m[K
+      |                                         [32m[K%lX[m[K
+[01m[K/home/ubuntu/ros2_WS/src/YDLidar-SDK/./core/base/thread.h:147:74:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%X[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 3 has type ‘[01m[K_size_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+  147 |             fprintf(stderr, "[YDLIDAR] An error occurred while thread[0x[01;35m[K%X[m[K] cancelled!\n", [32m[K_handle[m[K);
+      |                                                                         [01;35m[K~^[m[K                 [32m[K~~~~~~~[m[K
+      |                                                                          [01;35m[K|[m[K                 [32m[K|[m[K
+      |                                                                          [01;35m[Kunsigned int[m[K      [32m[K_size_t {aka long unsigned int}[m[K
+      |                                                                         [32m[K%lX[m[K
+[01m[K/home/ubuntu/ros2_WS/src/YDLidar-SDK/./core/base/thread.h:151:40:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%X[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 2 has type ‘[01m[K_size_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+  151 |           printf("[YDLIDAR] Thread [0x[01;35m[K%X[m[K] has been canceled\n", [32m[K_handle[m[K);
+      |                                       [01;35m[K~^[m[K                        [32m[K~~~~~~~[m[K
+      |                                        [01;35m[K|[m[K                        [32m[K|[m[K
+      |                                        [01;35m[Kunsigned int[m[K             [32m[K_size_t {aka long unsigned int}[m[K
+      |                                       [32m[K%lX[m[K
+[01m[K/home/ubuntu/ros2_WS/src/YDLidar-SDK/src/SDMLidarDriver.cpp:[m[K In member function ‘[01m[Kresult_t ydlidar::SDMLidarDriver::createThread()[m[K’:
+[01m[K/home/ubuntu/ros2_WS/src/YDLidar-SDK/src/SDMLidarDriver.cpp:808:44:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%X[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 2 has type ‘[01m[K_size_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+  808 |     printf("[YDLIDAR] Create SDM thread 0x[01;35m[K%X[m[K\n", [32m[K_thread.getHandle()[m[K);
+      |                                           [01;35m[K~^[m[K     [32m[K~~~~~~~~~~~~~~~~~~~[m[K
+      |                                            [01;35m[K|[m[K                      [32m[K|[m[K
+      |                                            [01;35m[Kunsigned int[m[K           [32m[K_size_t {aka long unsigned int}[m[K
+      |                                           [32m[K%lX[m[K
+In file included from [01m[K/home/ubuntu/ros2_WS/src/YDLidar-SDK/src/YDlidarDriver.h:46[m[K,
+                 from [01m[K/home/ubuntu/ros2_WS/src/YDLidar-SDK/src/YDlidarDriver.cpp:26[m[K:
+[01m[K/home/ubuntu/ros2_WS/src/YDLidar-SDK/./core/base/thread.h:[m[K In member function ‘[01m[Kint ydlidar::core::base::Thread::join(long unsigned int)[m[K’:
+[01m[K/home/ubuntu/ros2_WS/src/YDLidar-SDK/./core/base/thread.h:136:46:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%X[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 2 has type ‘[01m[K_size_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+  136 |           printf("[YDLIDAR DEBUG] Thread [0x[01;35m[K%X[m[K] ready to cancel[%d]\n", [32m[K_handle[m[K, s);
+      |                                             [01;35m[K~^[m[K                          [32m[K~~~~~~~[m[K
+      |                                              [01;35m[K|[m[K                          [32m[K|[m[K
+      |                                              [01;35m[Kunsigned int[m[K               [32m[K_size_t {aka long unsigned int}[m[K
+      |                                             [32m[K%lX[m[K
+[01m[K/home/ubuntu/ros2_WS/src/YDLidar-SDK/./core/base/thread.h:138:46:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%X[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 2 has type ‘[01m[K_size_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+  138 |           printf("[YDLIDAR DEBUG] Thread [0x[01;35m[K%X[m[K] ready to cancel[%d] time[%u]\n",
+      |                                             [01;35m[K~^[m[K
+      |                                              [01;35m[K|[m[K
+      |                                              [01;35m[Kunsigned int[m[K
+      |                                             [32m[K%lX[m[K
+  139 |             [32m[K_handle[m[K, s, getms() - t);
+      |             [32m[K~~~~~~~[m[K                           
+      |             [32m[K|[m[K
+      |             [32m[K_size_t {aka long unsigned int}[m[K
+[01m[K/home/ubuntu/ros2_WS/src/YDLidar-SDK/./core/base/thread.h:142:42:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%X[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 2 has type ‘[01m[K_size_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+  142 |             printf("[YDLIDAR] Thread [0x[01;35m[K%X[m[K] has been canceled in other thread\n", [32m[K_handle[m[K);
+      |                                         [01;35m[K~^[m[K                                        [32m[K~~~~~~~[m[K
+      |                                          [01;35m[K|[m[K                                        [32m[K|[m[K
+      |                                          [01;35m[Kunsigned int[m[K                             [32m[K_size_t {aka long unsigned int}[m[K
+      |                                         [32m[K%lX[m[K
+[01m[K/home/ubuntu/ros2_WS/src/YDLidar-SDK/./core/base/thread.h:147:74:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%X[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 3 has type ‘[01m[K_size_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+  147 |             fprintf(stderr, "[YDLIDAR] An error occurred while thread[0x[01;35m[K%X[m[K] cancelled!\n", [32m[K_handle[m[K);
+      |                                                                         [01;35m[K~^[m[K                 [32m[K~~~~~~~[m[K
+      |                                                                          [01;35m[K|[m[K                 [32m[K|[m[K
+      |                                                                          [01;35m[Kunsigned int[m[K      [32m[K_size_t {aka long unsigned int}[m[K
+      |                                                                         [32m[K%lX[m[K
+[01m[K/home/ubuntu/ros2_WS/src/YDLidar-SDK/./core/base/thread.h:151:40:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%X[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 2 has type ‘[01m[K_size_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+  151 |           printf("[YDLIDAR] Thread [0x[01;35m[K%X[m[K] has been canceled\n", [32m[K_handle[m[K);
+      |                                       [01;35m[K~^[m[K                        [32m[K~~~~~~~[m[K
+      |                                        [01;35m[K|[m[K                        [32m[K|[m[K
+      |                                        [01;35m[Kunsigned int[m[K             [32m[K_size_t {aka long unsigned int}[m[K
+      |                                       [32m[K%lX[m[K
+[01m[K/home/ubuntu/ros2_WS/src/YDLidar-SDK/src/GSLidarDriver.cpp:[m[K In member function ‘[01m[Kresult_t ydlidar::GSLidarDriver::waitPackage(node_info*, uint32_t)[m[K’:
+[01m[K/home/ubuntu/ros2_WS/src/YDLidar-SDK/src/GSLidarDriver.cpp:889:35:[m[K [01;35m[Kwarning: [m[Ktaking address of packed member of ‘[01m[Knode_info[m[K’ may result in an unaligned pointer value [[01;35m[K-Waddress-of-packed-member[m[K]
+  889 |                     &sampleAngle, [01;35m[K&(*node).dist[m[K);
+      |                                   [01;35m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_WS/src/YDLidar-SDK/src/GSLidarDriver.cpp:892:35:[m[K [01;35m[Kwarning: [m[Ktaking address of packed member of ‘[01m[Knode_info[m[K’ may result in an unaligned pointer value [[01;35m[K-Waddress-of-packed-member[m[K]
+  892 |                     &sampleAngle, [01;35m[K&(*node).dist[m[K);
+      |                                   [01;35m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_WS/src/YDLidar-SDK/src/GSLidarDriver.cpp:895:35:[m[K [01;35m[Kwarning: [m[Ktaking address of packed member of ‘[01m[Knode_info[m[K’ may result in an unaligned pointer value [[01;35m[K-Waddress-of-packed-member[m[K]
+  895 |                     &sampleAngle, [01;35m[K&(*node).dist[m[K);
+      |                                   [01;35m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_WS/src/YDLidar-SDK/src/GSLidarDriver.cpp:[m[K In member function ‘[01m[Kresult_t ydlidar::GSLidarDriver::createThread()[m[K’:
+[01m[K/home/ubuntu/ros2_WS/src/YDLidar-SDK/src/GSLidarDriver.cpp:1435:44:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%X[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 2 has type ‘[01m[K_size_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+ 1435 |     printf("[GS2Lidar] Create GS thread 0x[01;35m[K%X[m[K\n", [32m[K_thread.getHandle()[m[K);
+      |                                           [01;35m[K~^[m[K     [32m[K~~~~~~~~~~~~~~~~~~~[m[K
+      |                                            [01;35m[K|[m[K                      [32m[K|[m[K
+      |                                            [01;35m[Kunsigned int[m[K           [32m[K_size_t {aka long unsigned int}[m[K
+      |                                           [32m[K%lX[m[K
+[01m[K/home/ubuntu/ros2_WS/src/YDLidar-SDK/src/YDlidarDriver.cpp:[m[K In member function ‘[01m[Kresult_t ydlidar::YDlidarDriver::createThread()[m[K’:
+[01m[K/home/ubuntu/ros2_WS/src/YDLidar-SDK/src/YDlidarDriver.cpp:1867:38:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%X[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 2 has type ‘[01m[K_size_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+ 1867 |   printf("[YDLIDAR] Create thread 0x[01;35m[K%X[m[K\n", [32m[K_thread.getHandle()[m[K);
+      |                                     [01;35m[K~^[m[K     [32m[K~~~~~~~~~~~~~~~~~~~[m[K
+      |                                      [01;35m[K|[m[K                      [32m[K|[m[K
+      |                                      [01;35m[Kunsigned int[m[K           [32m[K_size_t {aka long unsigned int}[m[K
+      |                                     [32m[K%lX[m[K
+In file included from [01m[K/home/ubuntu/ros2_WS/src/YDLidar-SDK/./core/common/DriverInterface.h:3[m[K,
+                 from [01m[K/home/ubuntu/ros2_WS/src/YDLidar-SDK/src/CYdLidar.h:48[m[K,
+                 from [01m[K/home/ubuntu/ros2_WS/src/YDLidar-SDK/src/ydlidar_sdk.cpp:27[m[K:
+[01m[K/home/ubuntu/ros2_WS/src/YDLidar-SDK/./core/base/thread.h:[m[K In member function ‘[01m[Kint ydlidar::core::base::Thread::join(long unsigned int)[m[K’:
+[01m[K/home/ubuntu/ros2_WS/src/YDLidar-SDK/./core/base/thread.h:136:46:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%X[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 2 has type ‘[01m[K_size_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+  136 |           printf("[YDLIDAR DEBUG] Thread [0x[01;35m[K%X[m[K] ready to cancel[%d]\n", [32m[K_handle[m[K, s);
+      |                                             [01;35m[K~^[m[K                          [32m[K~~~~~~~[m[K
+      |                                              [01;35m[K|[m[K                          [32m[K|[m[K
+      |                                              [01;35m[Kunsigned int[m[K               [32m[K_size_t {aka long unsigned int}[m[K
+      |                                             [32m[K%lX[m[K
+[01m[K/home/ubuntu/ros2_WS/src/YDLidar-SDK/./core/base/thread.h:138:46:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%X[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 2 has type ‘[01m[K_size_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+  138 |           printf("[YDLIDAR DEBUG] Thread [0x[01;35m[K%X[m[K] ready to cancel[%d] time[%u]\n",
+      |                                             [01;35m[K~^[m[K
+      |                                              [01;35m[K|[m[K
+      |                                              [01;35m[Kunsigned int[m[K
+      |                                             [32m[K%lX[m[K
+  139 |             [32m[K_handle[m[K, s, getms() - t);
+      |             [32m[K~~~~~~~[m[K                           
+      |             [32m[K|[m[K
+      |             [32m[K_size_t {aka long unsigned int}[m[K
+[01m[K/home/ubuntu/ros2_WS/src/YDLidar-SDK/./core/base/thread.h:142:42:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%X[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 2 has type ‘[01m[K_size_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+  142 |             printf("[YDLIDAR] Thread [0x[01;35m[K%X[m[K] has been canceled in other thread\n", [32m[K_handle[m[K);
+      |                                         [01;35m[K~^[m[K                                        [32m[K~~~~~~~[m[K
+      |                                          [01;35m[K|[m[K                                        [32m[K|[m[K
+      |                                          [01;35m[Kunsigned int[m[K                             [32m[K_size_t {aka long unsigned int}[m[K
+      |                                         [32m[K%lX[m[K
+[01m[K/home/ubuntu/ros2_WS/src/YDLidar-SDK/./core/base/thread.h:147:74:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%X[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 3 has type ‘[01m[K_size_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+  147 |             fprintf(stderr, "[YDLIDAR] An error occurred while thread[0x[01;35m[K%X[m[K] cancelled!\n", [32m[K_handle[m[K);
+      |                                                                         [01;35m[K~^[m[K                 [32m[K~~~~~~~[m[K
+      |                                                                          [01;35m[K|[m[K                 [32m[K|[m[K
+      |                                                                          [01;35m[Kunsigned int[m[K      [32m[K_size_t {aka long unsigned int}[m[K
+      |                                                                         [32m[K%lX[m[K
+[01m[K/home/ubuntu/ros2_WS/src/YDLidar-SDK/./core/base/thread.h:151:40:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%X[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 2 has type ‘[01m[K_size_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+  151 |           printf("[YDLIDAR] Thread [0x[01;35m[K%X[m[K] has been canceled\n", [32m[K_handle[m[K);
+      |                                       [01;35m[K~^[m[K                        [32m[K~~~~~~~[m[K
+      |                                        [01;35m[K|[m[K                        [32m[K|[m[K
+      |                                        [01;35m[Kunsigned int[m[K             [32m[K_size_t {aka long unsigned int}[m[K
+      |                                       [32m[K%lX[m[K
+In file included from [01m[K/home/ubuntu/ros2_WS/src/YDLidar-SDK/./core/common/DriverInterface.h:3[m[K,
+                 from [01m[K/home/ubuntu/ros2_WS/src/YDLidar-SDK/src/CYdLidar.h:48[m[K,
+                 from [01m[K/home/ubuntu/ros2_WS/src/YDLidar-SDK/examples/sdm_test.cpp:34[m[K:
+[01m[K/home/ubuntu/ros2_WS/src/YDLidar-SDK/./core/base/thread.h:[m[K In member function ‘[01m[Kint ydlidar::core::base::Thread::join(long unsigned int)[m[K’:
+[01m[K/home/ubuntu/ros2_WS/src/YDLidar-SDK/./core/base/thread.h:136:46:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%X[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 2 has type ‘[01m[K_size_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+  136 |           printf("[YDLIDAR DEBUG] Thread [0x[01;35m[K%X[m[K] ready to cancel[%d]\n", [32m[K_handle[m[K, s);
+      |                                             [01;35m[K~^[m[K                          [32m[K~~~~~~~[m[K
+      |                                              [01;35m[K|[m[K                          [32m[K|[m[K
+      |                                              [01;35m[Kunsigned int[m[K               [32m[K_size_t {aka long unsigned int}[m[K
+      |                                             [32m[K%lX[m[K
+[01m[K/home/ubuntu/ros2_WS/src/YDLidar-SDK/./core/base/thread.h:138:46:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%X[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 2 has type ‘[01m[K_size_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+  138 |           printf("[YDLIDAR DEBUG] Thread [0x[01;35m[K%X[m[K] ready to cancel[%d] time[%u]\n",
+      |                                             [01;35m[K~^[m[K
+      |                                              [01;35m[K|[m[K
+      |                                              [01;35m[Kunsigned int[m[K
+      |                                             [32m[K%lX[m[K
+  139 |             [32m[K_handle[m[K, s, getms() - t);
+      |             [32m[K~~~~~~~[m[K                           
+      |             [32m[K|[m[K
+      |             [32m[K_size_t {aka long unsigned int}[m[K
+[01m[K/home/ubuntu/ros2_WS/src/YDLidar-SDK/./core/base/thread.h:142:42:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%X[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 2 has type ‘[01m[K_size_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+  142 |             printf("[YDLIDAR] Thread [0x[01;35m[K%X[m[K] has been canceled in other thread\n", [32m[K_handle[m[K);
+      |                                         [01;35m[K~^[m[K                                        [32m[K~~~~~~~[m[K
+      |                                          [01;35m[K|[m[K                                        [32m[K|[m[K
+      |                                          [01;35m[Kunsigned int[m[K                             [32m[K_size_t {aka long unsigned int}[m[K
+      |                                         [32m[K%lX[m[K
+[01m[K/home/ubuntu/ros2_WS/src/YDLidar-SDK/./core/base/thread.h:147:74:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%X[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 3 has type ‘[01m[K_size_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+  147 |             fprintf(stderr, "[YDLIDAR] An error occurred while thread[0x[01;35m[K%X[m[K] cancelled!\n", [32m[K_handle[m[K);
+      |                                                                         [01;35m[K~^[m[K                 [32m[K~~~~~~~[m[K
+      |                                                                          [01;35m[K|[m[K                 [32m[K|[m[K
+      |                                                                          [01;35m[Kunsigned int[m[K      [32m[K_size_t {aka long unsigned int}[m[K
+      |                                                                         [32m[K%lX[m[K
+[01m[K/home/ubuntu/ros2_WS/src/YDLidar-SDK/./core/base/thread.h:151:40:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%X[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 2 has type ‘[01m[K_size_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+  151 |           printf("[YDLIDAR] Thread [0x[01;35m[K%X[m[K] has been canceled\n", [32m[K_handle[m[K);
+      |                                       [01;35m[K~^[m[K                        [32m[K~~~~~~~[m[K
+      |                                        [01;35m[K|[m[K                        [32m[K|[m[K
+      |                                        [01;35m[Kunsigned int[m[K             [32m[K_size_t {aka long unsigned int}[m[K
+      |                                       [32m[K%lX[m[K
+In file included from [01m[K/home/ubuntu/ros2_WS/src/YDLidar-SDK/./core/common/DriverInterface.h:3[m[K,
+                 from [01m[K/home/ubuntu/ros2_WS/src/YDLidar-SDK/src/CYdLidar.h:48[m[K,
+                 from [01m[K/home/ubuntu/ros2_WS/src/YDLidar-SDK/examples/et_test.cpp:34[m[K:
+[01m[K/home/ubuntu/ros2_WS/src/YDLidar-SDK/./core/base/thread.h:[m[K In member function ‘[01m[Kint ydlidar::core::base::Thread::join(long unsigned int)[m[K’:
+[01m[K/home/ubuntu/ros2_WS/src/YDLidar-SDK/./core/base/thread.h:136:46:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%X[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 2 has type ‘[01m[K_size_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+  136 |           printf("[YDLIDAR DEBUG] Thread [0x[01;35m[K%X[m[K] ready to cancel[%d]\n", [32m[K_handle[m[K, s);
+      |                                             [01;35m[K~^[m[K                          [32m[K~~~~~~~[m[K
+      |                                              [01;35m[K|[m[K                          [32m[K|[m[K
+      |                                              [01;35m[Kunsigned int[m[K               [32m[K_size_t {aka long unsigned int}[m[K
+      |                                             [32m[K%lX[m[K
+[01m[K/home/ubuntu/ros2_WS/src/YDLidar-SDK/./core/base/thread.h:138:46:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%X[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 2 has type ‘[01m[K_size_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+  138 |           printf("[YDLIDAR DEBUG] Thread [0x[01;35m[K%X[m[K] ready to cancel[%d] time[%u]\n",
+      |                                             [01;35m[K~^[m[K
+      |                                              [01;35m[K|[m[K
+      |                                              [01;35m[Kunsigned int[m[K
+      |                                             [32m[K%lX[m[K
+  139 |             [32m[K_handle[m[K, s, getms() - t);
+      |             [32m[K~~~~~~~[m[K                           
+      |             [32m[K|[m[K
+      |             [32m[K_size_t {aka long unsigned int}[m[K
+[01m[K/home/ubuntu/ros2_WS/src/YDLidar-SDK/./core/base/thread.h:142:42:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%X[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 2 has type ‘[01m[K_size_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+  142 |             printf("[YDLIDAR] Thread [0x[01;35m[K%X[m[K] has been canceled in other thread\n", [32m[K_handle[m[K);
+      |                                         [01;35m[K~^[m[K                                        [32m[K~~~~~~~[m[K
+      |                                          [01;35m[K|[m[K                                        [32m[K|[m[K
+      |                                          [01;35m[Kunsigned int[m[K                             [32m[K_size_t {aka long unsigned int}[m[K
+      |                                         [32m[K%lX[m[K
+[01m[K/home/ubuntu/ros2_WS/src/YDLidar-SDK/./core/base/thread.h:147:74:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%X[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 3 has type ‘[01m[K_size_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+  147 |             fprintf(stderr, "[YDLIDAR] An error occurred while thread[0x[01;35m[K%X[m[K] cancelled!\n", [32m[K_handle[m[K);
+      |                                                                         [01;35m[K~^[m[K                 [32m[K~~~~~~~[m[K
+      |                                                                          [01;35m[K|[m[K                 [32m[K|[m[K
+      |                                                                          [01;35m[Kunsigned int[m[K      [32m[K_size_t {aka long unsigned int}[m[K
+      |                                                                         [32m[K%lX[m[K
+[01m[K/home/ubuntu/ros2_WS/src/YDLidar-SDK/./core/base/thread.h:151:40:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%X[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 2 has type ‘[01m[K_size_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+  151 |           printf("[YDLIDAR] Thread [0x[01;35m[K%X[m[K] has been canceled\n", [32m[K_handle[m[K);
+      |                                       [01;35m[K~^[m[K                        [32m[K~~~~~~~[m[K
+      |                                        [01;35m[K|[m[K                        [32m[K|[m[K
+      |                                        [01;35m[Kunsigned int[m[K             [32m[K_size_t {aka long unsigned int}[m[K
+      |                                       [32m[K%lX[m[K
+In file included from [01m[K/home/ubuntu/ros2_WS/src/YDLidar-SDK/./core/common/DriverInterface.h:3[m[K,
+                 from [01m[K/home/ubuntu/ros2_WS/src/YDLidar-SDK/src/CYdLidar.h:48[m[K,
+                 from [01m[K/home/ubuntu/ros2_WS/src/YDLidar-SDK/examples/tri_and_gs_test.cpp:1[m[K:
+[01m[K/home/ubuntu/ros2_WS/src/YDLidar-SDK/./core/base/thread.h:[m[K In member function ‘[01m[Kint ydlidar::core::base::Thread::join(long unsigned int)[m[K’:
+[01m[K/home/ubuntu/ros2_WS/src/YDLidar-SDK/./core/base/thread.h:136:46:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%X[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 2 has type ‘[01m[K_size_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+  136 |           printf("[YDLIDAR DEBUG] Thread [0x[01;35m[K%X[m[K] ready to cancel[%d]\n", [32m[K_handle[m[K, s);
+      |                                             [01;35m[K~^[m[K                          [32m[K~~~~~~~[m[K
+      |                                              [01;35m[K|[m[K                          [32m[K|[m[K
+      |                                              [01;35m[Kunsigned int[m[K               [32m[K_size_t {aka long unsigned int}[m[K
+      |                                             [32m[K%lX[m[K
+[01m[K/home/ubuntu/ros2_WS/src/YDLidar-SDK/./core/base/thread.h:138:46:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%X[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 2 has type ‘[01m[K_size_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+  138 |           printf("[YDLIDAR DEBUG] Thread [0x[01;35m[K%X[m[K] ready to cancel[%d] time[%u]\n",
+      |                                             [01;35m[K~^[m[K
+      |                                              [01;35m[K|[m[K
+      |                                              [01;35m[Kunsigned int[m[K
+      |                                             [32m[K%lX[m[K
+  139 |             [32m[K_handle[m[K, s, getms() - t);
+      |             [32m[K~~~~~~~[m[K                           
+      |             [32m[K|[m[K
+      |             [32m[K_size_t {aka long unsigned int}[m[K
+[01m[K/home/ubuntu/ros2_WS/src/YDLidar-SDK/./core/base/thread.h:142:42:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%X[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 2 has type ‘[01m[K_size_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+  142 |             printf("[YDLIDAR] Thread [0x[01;35m[K%X[m[K] has been canceled in other thread\n", [32m[K_handle[m[K);
+      |                                         [01;35m[K~^[m[K                                        [32m[K~~~~~~~[m[K
+      |                                          [01;35m[K|[m[K                                        [32m[K|[m[K
+      |                                          [01;35m[Kunsigned int[m[K                             [32m[K_size_t {aka long unsigned int}[m[K
+      |                                         [32m[K%lX[m[K
+[01m[K/home/ubuntu/ros2_WS/src/YDLidar-SDK/./core/base/thread.h:147:74:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%X[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 3 has type ‘[01m[K_size_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+  147 |             fprintf(stderr, "[YDLIDAR] An error occurred while thread[0x[01;35m[K%X[m[K] cancelled!\n", [32m[K_handle[m[K);
+      |                                                                         [01;35m[K~^[m[K                 [32m[K~~~~~~~[m[K
+      |                                                                          [01;35m[K|[m[K                 [32m[K|[m[K
+      |                                                                          [01;35m[Kunsigned int[m[K      [32m[K_size_t {aka long unsigned int}[m[K
+      |                                                                         [32m[K%lX[m[K
+[01m[K/home/ubuntu/ros2_WS/src/YDLidar-SDK/./core/base/thread.h:151:40:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%X[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 2 has type ‘[01m[K_size_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+  151 |           printf("[YDLIDAR] Thread [0x[01;35m[K%X[m[K] has been canceled\n", [32m[K_handle[m[K);
+      |                                       [01;35m[K~^[m[K                        [32m[K~~~~~~~[m[K
+      |                                        [01;35m[K|[m[K                        [32m[K|[m[K
+      |                                        [01;35m[Kunsigned int[m[K             [32m[K_size_t {aka long unsigned int}[m[K
+      |                                       [32m[K%lX[m[K
+In file included from [01m[K/home/ubuntu/ros2_WS/src/YDLidar-SDK/./core/common/DriverInterface.h:3[m[K,
+                 from [01m[K/home/ubuntu/ros2_WS/src/YDLidar-SDK/src/CYdLidar.h:48[m[K,
+                 from [01m[K/home/ubuntu/ros2_WS/src/YDLidar-SDK/examples/tri_restart.cpp:1[m[K:
+[01m[K/home/ubuntu/ros2_WS/src/YDLidar-SDK/./core/base/thread.h:[m[K In member function ‘[01m[Kint ydlidar::core::base::Thread::join(long unsigned int)[m[K’:
+[01m[K/home/ubuntu/ros2_WS/src/YDLidar-SDK/./core/base/thread.h:136:46:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%X[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 2 has type ‘[01m[K_size_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+  136 |           printf("[YDLIDAR DEBUG] Thread [0x[01;35m[K%X[m[K] ready to cancel[%d]\n", [32m[K_handle[m[K, s);
+      |                                             [01;35m[K~^[m[K                          [32m[K~~~~~~~[m[K
+      |                                              [01;35m[K|[m[K                          [32m[K|[m[K
+      |                                              [01;35m[Kunsigned int[m[K               [32m[K_size_t {aka long unsigned int}[m[K
+      |                                             [32m[K%lX[m[K
+[01m[K/home/ubuntu/ros2_WS/src/YDLidar-SDK/./core/base/thread.h:138:46:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%X[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 2 has type ‘[01m[K_size_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+  138 |           printf("[YDLIDAR DEBUG] Thread [0x[01;35m[K%X[m[K] ready to cancel[%d] time[%u]\n",
+      |                                             [01;35m[K~^[m[K
+      |                                              [01;35m[K|[m[K
+      |                                              [01;35m[Kunsigned int[m[K
+      |                                             [32m[K%lX[m[K
+  139 |             [32m[K_handle[m[K, s, getms() - t);
+      |             [32m[K~~~~~~~[m[K                           
+      |             [32m[K|[m[K
+      |             [32m[K_size_t {aka long unsigned int}[m[K
+[01m[K/home/ubuntu/ros2_WS/src/YDLidar-SDK/./core/base/thread.h:142:42:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%X[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 2 has type ‘[01m[K_size_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+  142 |             printf("[YDLIDAR] Thread [0x[01;35m[K%X[m[K] has been canceled in other thread\n", [32m[K_handle[m[K);
+      |                                         [01;35m[K~^[m[K                                        [32m[K~~~~~~~[m[K
+      |                                          [01;35m[K|[m[K                                        [32m[K|[m[K
+      |                                          [01;35m[Kunsigned int[m[K                             [32m[K_size_t {aka long unsigned int}[m[K
+      |                                         [32m[K%lX[m[K
+[01m[K/home/ubuntu/ros2_WS/src/YDLidar-SDK/./core/base/thread.h:147:74:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%X[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 3 has type ‘[01m[K_size_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+  147 |             fprintf(stderr, "[YDLIDAR] An error occurred while thread[0x[01;35m[K%X[m[K] cancelled!\n", [32m[K_handle[m[K);
+      |                                                                         [01;35m[K~^[m[K                 [32m[K~~~~~~~[m[K
+      |                                                                          [01;35m[K|[m[K                 [32m[K|[m[K
+      |                                                                          [01;35m[Kunsigned int[m[K      [32m[K_size_t {aka long unsigned int}[m[K
+      |                                                                         [32m[K%lX[m[K
+[01m[K/home/ubuntu/ros2_WS/src/YDLidar-SDK/./core/base/thread.h:151:40:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%X[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 2 has type ‘[01m[K_size_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+  151 |           printf("[YDLIDAR] Thread [0x[01;35m[K%X[m[K] has been canceled\n", [32m[K_handle[m[K);
+      |                                       [01;35m[K~^[m[K                        [32m[K~~~~~~~[m[K
+      |                                        [01;35m[K|[m[K                        [32m[K|[m[K
+      |                                        [01;35m[Kunsigned int[m[K             [32m[K_size_t {aka long unsigned int}[m[K
+      |                                       [32m[K%lX[m[K
+In file included from [01m[K/home/ubuntu/ros2_WS/src/YDLidar-SDK/./core/common/DriverInterface.h:3[m[K,
+                 from [01m[K/home/ubuntu/ros2_WS/src/YDLidar-SDK/src/CYdLidar.h:48[m[K,
+                 from [01m[K/home/ubuntu/ros2_WS/src/YDLidar-SDK/examples/tri_test.cpp:34[m[K:
+[01m[K/home/ubuntu/ros2_WS/src/YDLidar-SDK/./core/base/thread.h:[m[K In member function ‘[01m[Kint ydlidar::core::base::Thread::join(long unsigned int)[m[K’:
+[01m[K/home/ubuntu/ros2_WS/src/YDLidar-SDK/./core/base/thread.h:136:46:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%X[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 2 has type ‘[01m[K_size_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+  136 |           printf("[YDLIDAR DEBUG] Thread [0x[01;35m[K%X[m[K] ready to cancel[%d]\n", [32m[K_handle[m[K, s);
+      |                                             [01;35m[K~^[m[K                          [32m[K~~~~~~~[m[K
+      |                                              [01;35m[K|[m[K                          [32m[K|[m[K
+      |                                              [01;35m[Kunsigned int[m[K               [32m[K_size_t {aka long unsigned int}[m[K
+      |                                             [32m[K%lX[m[K
+[01m[K/home/ubuntu/ros2_WS/src/YDLidar-SDK/./core/base/thread.h:138:46:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%X[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 2 has type ‘[01m[K_size_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+  138 |           printf("[YDLIDAR DEBUG] Thread [0x[01;35m[K%X[m[K] ready to cancel[%d] time[%u]\n",
+      |                                             [01;35m[K~^[m[K
+      |                                              [01;35m[K|[m[K
+      |                                              [01;35m[Kunsigned int[m[K
+      |                                             [32m[K%lX[m[K
+  139 |             [32m[K_handle[m[K, s, getms() - t);
+      |             [32m[K~~~~~~~[m[K                           
+      |             [32m[K|[m[K
+      |             [32m[K_size_t {aka long unsigned int}[m[K
+[01m[K/home/ubuntu/ros2_WS/src/YDLidar-SDK/./core/base/thread.h:142:42:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%X[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 2 has type ‘[01m[K_size_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+  142 |             printf("[YDLIDAR] Thread [0x[01;35m[K%X[m[K] has been canceled in other thread\n", [32m[K_handle[m[K);
+      |                                         [01;35m[K~^[m[K                                        [32m[K~~~~~~~[m[K
+      |                                          [01;35m[K|[m[K                                        [32m[K|[m[K
+      |                                          [01;35m[Kunsigned int[m[K                             [32m[K_size_t {aka long unsigned int}[m[K
+      |                                         [32m[K%lX[m[K
+[01m[K/home/ubuntu/ros2_WS/src/YDLidar-SDK/./core/base/thread.h:147:74:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%X[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 3 has type ‘[01m[K_size_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+  147 |             fprintf(stderr, "[YDLIDAR] An error occurred while thread[0x[01;35m[K%X[m[K] cancelled!\n", [32m[K_handle[m[K);
+      |                                                                         [01;35m[K~^[m[K                 [32m[K~~~~~~~[m[K
+      |                                                                          [01;35m[K|[m[K                 [32m[K|[m[K
+      |                                                                          [01;35m[Kunsigned int[m[K      [32m[K_size_t {aka long unsigned int}[m[K
+      |                                                                         [32m[K%lX[m[K
+[01m[K/home/ubuntu/ros2_WS/src/YDLidar-SDK/./core/base/thread.h:151:40:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%X[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 2 has type ‘[01m[K_size_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+  151 |           printf("[YDLIDAR] Thread [0x[01;35m[K%X[m[K] has been canceled\n", [32m[K_handle[m[K);
+      |                                       [01;35m[K~^[m[K                        [32m[K~~~~~~~[m[K
+      |                                        [01;35m[K|[m[K                        [32m[K|[m[K
+      |                                        [01;35m[Kunsigned int[m[K             [32m[K_size_t {aka long unsigned int}[m[K
+      |                                       [32m[K%lX[m[K
+In file included from [01m[K/home/ubuntu/ros2_WS/src/YDLidar-SDK/./core/common/DriverInterface.h:3[m[K,
+                 from [01m[K/home/ubuntu/ros2_WS/src/YDLidar-SDK/src/CYdLidar.h:48[m[K,
+                 from [01m[K/home/ubuntu/ros2_WS/src/YDLidar-SDK/examples/gs_test.cpp:40[m[K:
+[01m[K/home/ubuntu/ros2_WS/src/YDLidar-SDK/./core/base/thread.h:[m[K In member function ‘[01m[Kint ydlidar::core::base::Thread::join(long unsigned int)[m[K’:
+[01m[K/home/ubuntu/ros2_WS/src/YDLidar-SDK/./core/base/thread.h:136:46:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%X[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 2 has type ‘[01m[K_size_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+  136 |           printf("[YDLIDAR DEBUG] Thread [0x[01;35m[K%X[m[K] ready to cancel[%d]\n", [32m[K_handle[m[K, s);
+      |                                             [01;35m[K~^[m[K                          [32m[K~~~~~~~[m[K
+      |                                              [01;35m[K|[m[K                          [32m[K|[m[K
+      |                                              [01;35m[Kunsigned int[m[K               [32m[K_size_t {aka long unsigned int}[m[K
+      |                                             [32m[K%lX[m[K
+[01m[K/home/ubuntu/ros2_WS/src/YDLidar-SDK/./core/base/thread.h:138:46:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%X[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 2 has type ‘[01m[K_size_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+  138 |           printf("[YDLIDAR DEBUG] Thread [0x[01;35m[K%X[m[K] ready to cancel[%d] time[%u]\n",
+      |                                             [01;35m[K~^[m[K
+      |                                              [01;35m[K|[m[K
+      |                                              [01;35m[Kunsigned int[m[K
+      |                                             [32m[K%lX[m[K
+  139 |             [32m[K_handle[m[K, s, getms() - t);
+      |             [32m[K~~~~~~~[m[K                           
+      |             [32m[K|[m[K
+      |             [32m[K_size_t {aka long unsigned int}[m[K
+[01m[K/home/ubuntu/ros2_WS/src/YDLidar-SDK/./core/base/thread.h:142:42:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%X[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 2 has type ‘[01m[K_size_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+  142 |             printf("[YDLIDAR] Thread [0x[01;35m[K%X[m[K] has been canceled in other thread\n", [32m[K_handle[m[K);
+      |                                         [01;35m[K~^[m[K                                        [32m[K~~~~~~~[m[K
+      |                                          [01;35m[K|[m[K                                        [32m[K|[m[K
+      |                                          [01;35m[Kunsigned int[m[K                             [32m[K_size_t {aka long unsigned int}[m[K
+      |                                         [32m[K%lX[m[K
+[01m[K/home/ubuntu/ros2_WS/src/YDLidar-SDK/./core/base/thread.h:147:74:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%X[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 3 has type ‘[01m[K_size_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+  147 |             fprintf(stderr, "[YDLIDAR] An error occurred while thread[0x[01;35m[K%X[m[K] cancelled!\n", [32m[K_handle[m[K);
+      |                                                                         [01;35m[K~^[m[K                 [32m[K~~~~~~~[m[K
+      |                                                                          [01;35m[K|[m[K                 [32m[K|[m[K
+      |                                                                          [01;35m[Kunsigned int[m[K      [32m[K_size_t {aka long unsigned int}[m[K
+      |                                                                         [32m[K%lX[m[K
+[01m[K/home/ubuntu/ros2_WS/src/YDLidar-SDK/./core/base/thread.h:151:40:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%X[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 2 has type ‘[01m[K_size_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+  151 |           printf("[YDLIDAR] Thread [0x[01;35m[K%X[m[K] has been canceled\n", [32m[K_handle[m[K);
+      |                                       [01;35m[K~^[m[K                        [32m[K~~~~~~~[m[K
+      |                                        [01;35m[K|[m[K                        [32m[K|[m[K
+      |                                        [01;35m[Kunsigned int[m[K             [32m[K_size_t {aka long unsigned int}[m[K
+      |                                       [32m[K%lX[m[K
+In file included from [01m[K/home/ubuntu/ros2_WS/src/YDLidar-SDK/./core/common/DriverInterface.h:3[m[K,
+                 from [01m[K/home/ubuntu/ros2_WS/src/YDLidar-SDK/src/CYdLidar.h:48[m[K,
+                 from [01m[K/home/ubuntu/ros2_WS/src/YDLidar-SDK/examples/tof_test.cpp:38[m[K:
+[01m[K/home/ubuntu/ros2_WS/src/YDLidar-SDK/./core/base/thread.h:[m[K In member function ‘[01m[Kint ydlidar::core::base::Thread::join(long unsigned int)[m[K’:
+[01m[K/home/ubuntu/ros2_WS/src/YDLidar-SDK/./core/base/thread.h:136:46:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%X[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 2 has type ‘[01m[K_size_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+  136 |           printf("[YDLIDAR DEBUG] Thread [0x[01;35m[K%X[m[K] ready to cancel[%d]\n", [32m[K_handle[m[K, s);
+      |                                             [01;35m[K~^[m[K                          [32m[K~~~~~~~[m[K
+      |                                              [01;35m[K|[m[K                          [32m[K|[m[K
+      |                                              [01;35m[Kunsigned int[m[K               [32m[K_size_t {aka long unsigned int}[m[K
+      |                                             [32m[K%lX[m[K
+[01m[K/home/ubuntu/ros2_WS/src/YDLidar-SDK/./core/base/thread.h:138:46:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%X[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 2 has type ‘[01m[K_size_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+  138 |           printf("[YDLIDAR DEBUG] Thread [0x[01;35m[K%X[m[K] ready to cancel[%d] time[%u]\n",
+      |                                             [01;35m[K~^[m[K
+      |                                              [01;35m[K|[m[K
+      |                                              [01;35m[Kunsigned int[m[K
+      |                                             [32m[K%lX[m[K
+  139 |             [32m[K_handle[m[K, s, getms() - t);
+      |             [32m[K~~~~~~~[m[K                           
+      |             [32m[K|[m[K
+      |             [32m[K_size_t {aka long unsigned int}[m[K
+[01m[K/home/ubuntu/ros2_WS/src/YDLidar-SDK/./core/base/thread.h:142:42:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%X[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 2 has type ‘[01m[K_size_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+  142 |             printf("[YDLIDAR] Thread [0x[01;35m[K%X[m[K] has been canceled in other thread\n", [32m[K_handle[m[K);
+      |                                         [01;35m[K~^[m[K                                        [32m[K~~~~~~~[m[K
+      |                                          [01;35m[K|[m[K                                        [32m[K|[m[K
+      |                                          [01;35m[Kunsigned int[m[K                             [32m[K_size_t {aka long unsigned int}[m[K
+      |                                         [32m[K%lX[m[K
+[01m[K/home/ubuntu/ros2_WS/src/YDLidar-SDK/./core/base/thread.h:147:74:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%X[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 3 has type ‘[01m[K_size_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+  147 |             fprintf(stderr, "[YDLIDAR] An error occurred while thread[0x[01;35m[K%X[m[K] cancelled!\n", [32m[K_handle[m[K);
+      |                                                                         [01;35m[K~^[m[K                 [32m[K~~~~~~~[m[K
+      |                                                                          [01;35m[K|[m[K                 [32m[K|[m[K
+      |                                                                          [01;35m[Kunsigned int[m[K      [32m[K_size_t {aka long unsigned int}[m[K
+      |                                                                         [32m[K%lX[m[K
+[01m[K/home/ubuntu/ros2_WS/src/YDLidar-SDK/./core/base/thread.h:151:40:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%X[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 2 has type ‘[01m[K_size_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+  151 |           printf("[YDLIDAR] Thread [0x[01;35m[K%X[m[K] has been canceled\n", [32m[K_handle[m[K);
+      |                                       [01;35m[K~^[m[K                        [32m[K~~~~~~~[m[K
+      |                                        [01;35m[K|[m[K                        [32m[K|[m[K
+      |                                        [01;35m[Kunsigned int[m[K             [32m[K_size_t {aka long unsigned int}[m[K
+      |                                       [32m[K%lX[m[K
+In file included from [01m[K/home/ubuntu/ros2_WS/src/YDLidar-SDK/./core/common/DriverInterface.h:3[m[K,
+                 from [01m[K/home/ubuntu/ros2_WS/src/YDLidar-SDK/src/CYdLidar.h:48[m[K,
+                 from [01m[K/home/ubuntu/ros2_WS/src/YDLidar-SDK/examples/gs_ota.cpp:40[m[K:
+[01m[K/home/ubuntu/ros2_WS/src/YDLidar-SDK/./core/base/thread.h:[m[K In member function ‘[01m[Kint ydlidar::core::base::Thread::join(long unsigned int)[m[K’:
+[01m[K/home/ubuntu/ros2_WS/src/YDLidar-SDK/./core/base/thread.h:136:46:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%X[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 2 has type ‘[01m[K_size_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+  136 |           printf("[YDLIDAR DEBUG] Thread [0x[01;35m[K%X[m[K] ready to cancel[%d]\n", [32m[K_handle[m[K, s);
+      |                                             [01;35m[K~^[m[K                          [32m[K~~~~~~~[m[K
+      |                                              [01;35m[K|[m[K                          [32m[K|[m[K
+      |                                              [01;35m[Kunsigned int[m[K               [32m[K_size_t {aka long unsigned int}[m[K
+      |                                             [32m[K%lX[m[K
+[01m[K/home/ubuntu/ros2_WS/src/YDLidar-SDK/./core/base/thread.h:138:46:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%X[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 2 has type ‘[01m[K_size_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+  138 |           printf("[YDLIDAR DEBUG] Thread [0x[01;35m[K%X[m[K] ready to cancel[%d] time[%u]\n",
+      |                                             [01;35m[K~^[m[K
+      |                                              [01;35m[K|[m[K
+      |                                              [01;35m[Kunsigned int[m[K
+      |                                             [32m[K%lX[m[K
+  139 |             [32m[K_handle[m[K, s, getms() - t);
+      |             [32m[K~~~~~~~[m[K                           
+      |             [32m[K|[m[K
+      |             [32m[K_size_t {aka long unsigned int}[m[K
+[01m[K/home/ubuntu/ros2_WS/src/YDLidar-SDK/./core/base/thread.h:142:42:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%X[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 2 has type ‘[01m[K_size_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+  142 |             printf("[YDLIDAR] Thread [0x[01;35m[K%X[m[K] has been canceled in other thread\n", [32m[K_handle[m[K);
+      |                                         [01;35m[K~^[m[K                                        [32m[K~~~~~~~[m[K
+      |                                          [01;35m[K|[m[K                                        [32m[K|[m[K
+      |                                          [01;35m[Kunsigned int[m[K                             [32m[K_size_t {aka long unsigned int}[m[K
+      |                                         [32m[K%lX[m[K
+[01m[K/home/ubuntu/ros2_WS/src/YDLidar-SDK/./core/base/thread.h:147:74:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%X[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 3 has type ‘[01m[K_size_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+  147 |             fprintf(stderr, "[YDLIDAR] An error occurred while thread[0x[01;35m[K%X[m[K] cancelled!\n", [32m[K_handle[m[K);
+      |                                                                         [01;35m[K~^[m[K                 [32m[K~~~~~~~[m[K
+      |                                                                          [01;35m[K|[m[K                 [32m[K|[m[K
+      |                                                                          [01;35m[Kunsigned int[m[K      [32m[K_size_t {aka long unsigned int}[m[K
+      |                                                                         [32m[K%lX[m[K
+[01m[K/home/ubuntu/ros2_WS/src/YDLidar-SDK/./core/base/thread.h:151:40:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%X[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 2 has type ‘[01m[K_size_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+  151 |           printf("[YDLIDAR] Thread [0x[01;35m[K%X[m[K] has been canceled\n", [32m[K_handle[m[K);
+      |                                       [01;35m[K~^[m[K                        [32m[K~~~~~~~[m[K
+      |                                        [01;35m[K|[m[K                        [32m[K|[m[K
+      |                                        [01;35m[Kunsigned int[m[K             [32m[K_size_t {aka long unsigned int}[m[K
+      |                                       [32m[K%lX[m[K
+[01m[K/home/ubuntu/ros2_WS/src/YDLidar-SDK/examples/tri_test.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/ubuntu/ros2_WS/src/YDLidar-SDK/examples/tri_test.cpp:329:33:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%llu[m[K’ expects argument of type ‘[01m[Klong long unsigned int[m[K’, but argument 2 has type ‘[01m[Kstd::vector<LaserPoint>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+  329 |       printf("Scan received [[01;35m[K%llu[m[K] points scanFreq [%.02f]\n",
+      |                              [01;35m[K~~~^[m[K
+      |                                 [01;35m[K|[m[K
+      |                                 [01;35m[Klong long unsigned int[m[K
+      |                              [32m[K%lu[m[K
+  330 |              [32m[Kscan.points.size()[m[K,
+      |              [32m[K~~~~~~~~~~~~~~~~~~[m[K  
+      |                              [32m[K|[m[K
+      |                              [32m[Kstd::vector<LaserPoint>::size_type {aka long unsigned int}[m[K
+[01m[Kcc1:[m[K [01;35m[Kwarning: [m[Kcommand line option ‘[01m[K-std=c++11[m[K’ is valid for C++/ObjC++ but not for C
+In file included from [01m[K/home/ubuntu/ros2_WS/src/YDLidar-SDK/./core/common/DriverInterface.h:3[m[K,
+                 from [01m[K/home/ubuntu/ros2_WS/src/YDLidar-SDK/src/CYdLidar.h:48[m[K,
+                 from [01m[K/home/ubuntu/ros2_WS/src/YDLidar-SDK/examples/tmini_test.cpp:34[m[K:
+[01m[K/home/ubuntu/ros2_WS/src/YDLidar-SDK/./core/base/thread.h:[m[K In member function ‘[01m[Kint ydlidar::core::base::Thread::join(long unsigned int)[m[K’:
+[01m[K/home/ubuntu/ros2_WS/src/YDLidar-SDK/./core/base/thread.h:136:46:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%X[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 2 has type ‘[01m[K_size_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+  136 |           printf("[YDLIDAR DEBUG] Thread [0x[01;35m[K%X[m[K] ready to cancel[%d]\n", [32m[K_handle[m[K, s);
+      |                                             [01;35m[K~^[m[K                          [32m[K~~~~~~~[m[K
+      |                                              [01;35m[K|[m[K                          [32m[K|[m[K
+      |                                              [01;35m[Kunsigned int[m[K               [32m[K_size_t {aka long unsigned int}[m[K
+      |                                             [32m[K%lX[m[K
+[01m[K/home/ubuntu/ros2_WS/src/YDLidar-SDK/./core/base/thread.h:138:46:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%X[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 2 has type ‘[01m[K_size_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+  138 |           printf("[YDLIDAR DEBUG] Thread [0x[01;35m[K%X[m[K] ready to cancel[%d] time[%u]\n",
+      |                                             [01;35m[K~^[m[K
+      |                                              [01;35m[K|[m[K
+      |                                              [01;35m[Kunsigned int[m[K
+      |                                             [32m[K%lX[m[K
+  139 |             [32m[K_handle[m[K, s, getms() - t);
+      |             [32m[K~~~~~~~[m[K                           
+      |             [32m[K|[m[K
+      |             [32m[K_size_t {aka long unsigned int}[m[K
+[01m[K/home/ubuntu/ros2_WS/src/YDLidar-SDK/./core/base/thread.h:142:42:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%X[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 2 has type ‘[01m[K_size_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+  142 |             printf("[YDLIDAR] Thread [0x[01;35m[K%X[m[K] has been canceled in other thread\n", [32m[K_handle[m[K);
+      |                                         [01;35m[K~^[m[K                                        [32m[K~~~~~~~[m[K
+      |                                          [01;35m[K|[m[K                                        [32m[K|[m[K
+      |                                          [01;35m[Kunsigned int[m[K                             [32m[K_size_t {aka long unsigned int}[m[K
+      |                                         [32m[K%lX[m[K
+[01m[K/home/ubuntu/ros2_WS/src/YDLidar-SDK/./core/base/thread.h:147:74:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%X[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 3 has type ‘[01m[K_size_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+  147 |             fprintf(stderr, "[YDLIDAR] An error occurred while thread[0x[01;35m[K%X[m[K] cancelled!\n", [32m[K_handle[m[K);
+      |                                                                         [01;35m[K~^[m[K                 [32m[K~~~~~~~[m[K
+      |                                                                          [01;35m[K|[m[K                 [32m[K|[m[K
+      |                                                                          [01;35m[Kunsigned int[m[K      [32m[K_size_t {aka long unsigned int}[m[K
+      |                                                                         [32m[K%lX[m[K
+[01m[K/home/ubuntu/ros2_WS/src/YDLidar-SDK/./core/base/thread.h:151:40:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%X[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 2 has type ‘[01m[K_size_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+  151 |           printf("[YDLIDAR] Thread [0x[01;35m[K%X[m[K] has been canceled\n", [32m[K_handle[m[K);
+      |                                       [01;35m[K~^[m[K                        [32m[K~~~~~~~[m[K
+      |                                        [01;35m[K|[m[K                        [32m[K|[m[K
+      |                                        [01;35m[Kunsigned int[m[K             [32m[K_size_t {aka long unsigned int}[m[K
+      |                                       [32m[K%lX[m[K
+In file included from [01m[K/home/ubuntu/ros2_WS/src/YDLidar-SDK/./core/common/DriverInterface.h:3[m[K,
+                 from [01m[K/home/ubuntu/ros2_WS/src/YDLidar-SDK/src/CYdLidar.h:48[m[K,
+                 from [01m[K/home/ubuntu/ros2_WS/src/YDLidar-SDK/examples/scl_test.cpp:34[m[K:
+[01m[K/home/ubuntu/ros2_WS/src/YDLidar-SDK/./core/base/thread.h:[m[K In member function ‘[01m[Kint ydlidar::core::base::Thread::join(long unsigned int)[m[K’:
+[01m[K/home/ubuntu/ros2_WS/src/YDLidar-SDK/./core/base/thread.h:136:46:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%X[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 2 has type ‘[01m[K_size_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+  136 |           printf("[YDLIDAR DEBUG] Thread [0x[01;35m[K%X[m[K] ready to cancel[%d]\n", [32m[K_handle[m[K, s);
+      |                                             [01;35m[K~^[m[K                          [32m[K~~~~~~~[m[K
+      |                                              [01;35m[K|[m[K                          [32m[K|[m[K
+      |                                              [01;35m[Kunsigned int[m[K               [32m[K_size_t {aka long unsigned int}[m[K
+      |                                             [32m[K%lX[m[K
+[01m[K/home/ubuntu/ros2_WS/src/YDLidar-SDK/./core/base/thread.h:138:46:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%X[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 2 has type ‘[01m[K_size_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+  138 |           printf("[YDLIDAR DEBUG] Thread [0x[01;35m[K%X[m[K] ready to cancel[%d] time[%u]\n",
+      |                                             [01;35m[K~^[m[K
+      |                                              [01;35m[K|[m[K
+      |                                              [01;35m[Kunsigned int[m[K
+      |                                             [32m[K%lX[m[K
+  139 |             [32m[K_handle[m[K, s, getms() - t);
+      |             [32m[K~~~~~~~[m[K                           
+      |             [32m[K|[m[K
+      |             [32m[K_size_t {aka long unsigned int}[m[K
+[01m[K/home/ubuntu/ros2_WS/src/YDLidar-SDK/./core/base/thread.h:142:42:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%X[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 2 has type ‘[01m[K_size_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+  142 |             printf("[YDLIDAR] Thread [0x[01;35m[K%X[m[K] has been canceled in other thread\n", [32m[K_handle[m[K);
+      |                                         [01;35m[K~^[m[K                                        [32m[K~~~~~~~[m[K
+      |                                          [01;35m[K|[m[K                                        [32m[K|[m[K
+      |                                          [01;35m[Kunsigned int[m[K                             [32m[K_size_t {aka long unsigned int}[m[K
+      |                                         [32m[K%lX[m[K
+[01m[K/home/ubuntu/ros2_WS/src/YDLidar-SDK/./core/base/thread.h:147:74:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%X[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 3 has type ‘[01m[K_size_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+  147 |             fprintf(stderr, "[YDLIDAR] An error occurred while thread[0x[01;35m[K%X[m[K] cancelled!\n", [32m[K_handle[m[K);
+      |                                                                         [01;35m[K~^[m[K                 [32m[K~~~~~~~[m[K
+      |                                                                          [01;35m[K|[m[K                 [32m[K|[m[K
+      |                                                                          [01;35m[Kunsigned int[m[K      [32m[K_size_t {aka long unsigned int}[m[K
+      |                                                                         [32m[K%lX[m[K
+[01m[K/home/ubuntu/ros2_WS/src/YDLidar-SDK/./core/base/thread.h:151:40:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%X[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 2 has type ‘[01m[K_size_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+  151 |           printf("[YDLIDAR] Thread [0x[01;35m[K%X[m[K] has been canceled\n", [32m[K_handle[m[K);
+      |                                       [01;35m[K~^[m[K                        [32m[K~~~~~~~[m[K
+      |                                        [01;35m[K|[m[K                        [32m[K|[m[K
+      |                                        [01;35m[Kunsigned int[m[K             [32m[K_size_t {aka long unsigned int}[m[K
+      |                                       [32m[K%lX[m[K
+In file included from [01m[K/home/ubuntu/ros2_WS/src/YDLidar-SDK/./core/common/DriverInterface.h:3[m[K,
+                 from [01m[K/home/ubuntu/ros2_WS/src/YDLidar-SDK/src/CYdLidar.h:48[m[K,
+                 from [01m[K/home/ubuntu/ros2_WS/src/YDLidar-SDK/examples/tea_test.cpp:38[m[K:
+[01m[K/home/ubuntu/ros2_WS/src/YDLidar-SDK/./core/base/thread.h:[m[K In member function ‘[01m[Kint ydlidar::core::base::Thread::join(long unsigned int)[m[K’:
+[01m[K/home/ubuntu/ros2_WS/src/YDLidar-SDK/./core/base/thread.h:136:46:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%X[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 2 has type ‘[01m[K_size_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+  136 |           printf("[YDLIDAR DEBUG] Thread [0x[01;35m[K%X[m[K] ready to cancel[%d]\n", [32m[K_handle[m[K, s);
+      |                                             [01;35m[K~^[m[K                          [32m[K~~~~~~~[m[K
+      |                                              [01;35m[K|[m[K                          [32m[K|[m[K
+      |                                              [01;35m[Kunsigned int[m[K               [32m[K_size_t {aka long unsigned int}[m[K
+      |                                             [32m[K%lX[m[K
+[01m[K/home/ubuntu/ros2_WS/src/YDLidar-SDK/./core/base/thread.h:138:46:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%X[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 2 has type ‘[01m[K_size_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+  138 |           printf("[YDLIDAR DEBUG] Thread [0x[01;35m[K%X[m[K] ready to cancel[%d] time[%u]\n",
+      |                                             [01;35m[K~^[m[K
+      |                                              [01;35m[K|[m[K
+      |                                              [01;35m[Kunsigned int[m[K
+      |                                             [32m[K%lX[m[K
+  139 |             [32m[K_handle[m[K, s, getms() - t);
+      |             [32m[K~~~~~~~[m[K                           
+      |             [32m[K|[m[K
+      |             [32m[K_size_t {aka long unsigned int}[m[K
+[01m[K/home/ubuntu/ros2_WS/src/YDLidar-SDK/./core/base/thread.h:142:42:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%X[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 2 has type ‘[01m[K_size_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+  142 |             printf("[YDLIDAR] Thread [0x[01;35m[K%X[m[K] has been canceled in other thread\n", [32m[K_handle[m[K);
+      |                                         [01;35m[K~^[m[K                                        [32m[K~~~~~~~[m[K
+      |                                          [01;35m[K|[m[K                                        [32m[K|[m[K
+      |                                          [01;35m[Kunsigned int[m[K                             [32m[K_size_t {aka long unsigned int}[m[K
+      |                                         [32m[K%lX[m[K
+[01m[K/home/ubuntu/ros2_WS/src/YDLidar-SDK/./core/base/thread.h:147:74:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%X[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 3 has type ‘[01m[K_size_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+  147 |             fprintf(stderr, "[YDLIDAR] An error occurred while thread[0x[01;35m[K%X[m[K] cancelled!\n", [32m[K_handle[m[K);
+      |                                                                         [01;35m[K~^[m[K                 [32m[K~~~~~~~[m[K
+      |                                                                          [01;35m[K|[m[K                 [32m[K|[m[K
+      |                                                                          [01;35m[Kunsigned int[m[K      [32m[K_size_t {aka long unsigned int}[m[K
+      |                                                                         [32m[K%lX[m[K
+[01m[K/home/ubuntu/ros2_WS/src/YDLidar-SDK/./core/base/thread.h:151:40:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%X[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 2 has type ‘[01m[K_size_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+  151 |           printf("[YDLIDAR] Thread [0x[01;35m[K%X[m[K] has been canceled\n", [32m[K_handle[m[K);
+      |                                       [01;35m[K~^[m[K                        [32m[K~~~~~~~[m[K
+      |                                        [01;35m[K|[m[K                        [32m[K|[m[K
+      |                                        [01;35m[Kunsigned int[m[K             [32m[K_size_t {aka long unsigned int}[m[K
+      |                                       [32m[K%lX[m[K
+[01m[K/home/ubuntu/ros2_WS/src/YDLidar-SDK/examples/tea_test.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/ubuntu/ros2_WS/src/YDLidar-SDK/examples/tea_test.cpp:219:42:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%llu[m[K’ expects argument of type ‘[01m[Klong long unsigned int[m[K’, but argument 3 has type ‘[01m[Kstd::vector<LaserPoint>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+  219 |       fprintf(stdout, "Scan received [[01;35m[K%llu[m[K] points is [%f]s [%f]\n",
+      |                                       [01;35m[K~~~^[m[K
+      |                                          [01;35m[K|[m[K
+      |                                          [01;35m[Klong long unsigned int[m[K
+      |                                       [32m[K%lu[m[K
+  220 |               [32m[Kscan.points.size()[m[K,
+      |               [32m[K~~~~~~~~~~~~~~~~~~[m[K          
+      |                               [32m[K|[m[K
+      |                               [32m[Kstd::vector<LaserPoint>::size_type {aka long unsigned int}[m[K
+[01m[K/home/ubuntu/ros2_WS/src/YDLidar-SDK/examples/tea_test.cpp:227:18:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 2 has type ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+  227 |         printf("[01;35m[K%d[m[K d %.0f a %.02f i %.0f\n", [32m[Ki[m[K, p.range, p.angle * 180.0 / M_PI, p.intensity);
+      |                 [01;35m[K~^[m[K                           [32m[K~[m[K
+      |                  [01;35m[K|[m[K                           [32m[K|[m[K
+      |                  [01;35m[Kint[m[K                         [32m[Ksize_t {aka long unsigned int}[m[K
+      |                 [32m[K%ld[m[K
+[01m[K/home/ubuntu/ros2_WS/src/YDLidar-SDK/examples/scl_test.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/ubuntu/ros2_WS/src/YDLidar-SDK/examples/scl_test.cpp:333:33:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%llu[m[K’ expects argument of type ‘[01m[Klong long unsigned int[m[K’, but argument 2 has type ‘[01m[Kstd::vector<LaserPoint>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+  333 |       printf("Scan received [[01;35m[K%llu[m[K] points stamp [%llu]\n",
+      |                              [01;35m[K~~~^[m[K
+      |                                 [01;35m[K|[m[K
+      |                                 [01;35m[Klong long unsigned int[m[K
+      |                              [32m[K%lu[m[K
+  334 |              [32m[Kscan.points.size()[m[K,
+      |              [32m[K~~~~~~~~~~~~~~~~~~[m[K  
+      |                              [32m[K|[m[K
+      |                              [32m[Kstd::vector<LaserPoint>::size_type {aka long unsigned int}[m[K
+[01m[K/home/ubuntu/ros2_WS/src/YDLidar-SDK/examples/scl_test.cpp:333:53:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%llu[m[K’ expects argument of type ‘[01m[Klong long unsigned int[m[K’, but argument 3 has type ‘[01m[Kuint64_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+  333 |       printf("Scan received [%llu] points stamp [[01;35m[K%llu[m[K]\n",
+      |                                                  [01;35m[K~~~^[m[K
+      |                                                     [01;35m[K|[m[K
+      |                                                     [01;35m[Klong long unsigned int[m[K
+      |                                                  [32m[K%lu[m[K
+  334 |              scan.points.size(),
+  335 |              [32m[Kscan.stamp[m[K);
+      |              [32m[K~~~~~~~~~~[m[K                              
+      |                   [32m[K|[m[K
+      |                   [32m[Kuint64_t {aka long unsigned int}[m[K

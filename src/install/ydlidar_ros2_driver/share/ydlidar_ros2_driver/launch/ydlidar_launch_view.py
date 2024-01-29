@@ -1,0 +1,1 @@
+/home/ubuntu/ros2_WS/src/ydlidar_ros2_driver/launch/ydlidar_launch_view.py

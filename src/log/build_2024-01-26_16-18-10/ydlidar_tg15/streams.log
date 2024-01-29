@@ -1,0 +1,18 @@
+[1.541s] Invoking command in '/home/ubuntu/ros2_WS/src/build/ydlidar_tg15': PYTHONPATH=/home/ubuntu/ros2_WS/src/build/ydlidar_tg15/prefix_override:/home/ubuntu/ros2_WS/src/install/ydlidar_tg15/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/ubuntu/ros2_WS/src/build/ydlidar_tg15/build --no-deps install_data
+[1.785s] running develop
+[1.923s] running egg_info
+[1.923s] writing ydlidar_tg15.egg-info/PKG-INFO
+[1.924s] writing dependency_links to ydlidar_tg15.egg-info/dependency_links.txt
+[1.924s] writing entry points to ydlidar_tg15.egg-info/entry_points.txt
+[1.924s] writing requirements to ydlidar_tg15.egg-info/requires.txt
+[1.924s] writing top-level names to ydlidar_tg15.egg-info/top_level.txt
+[1.958s] reading manifest file 'ydlidar_tg15.egg-info/SOURCES.txt'
+[1.959s] writing manifest file 'ydlidar_tg15.egg-info/SOURCES.txt'
+[1.992s] running build_ext
+[1.993s] Creating /home/ubuntu/ros2_WS/src/install/ydlidar_tg15/lib/python3.8/site-packages/ydlidar-tg15.egg-link (link to .)
+[1.993s] Installing ydlidar_tg15_node script to /home/ubuntu/ros2_WS/src/install/ydlidar_tg15/lib/ydlidar_x4_example
+[1.994s] 
+[1.994s] Installed /home/ubuntu/ros2_WS/src/build/ydlidar_tg15
+[1.994s] running install_data
+[1.994s] copying launch/2dmapping.launch.py -> /home/ubuntu/ros2_WS/src/install/ydlidar_tg15/share/ydlidar_tg15/launch
+[2.024s] Invoked command in '/home/ubuntu/ros2_WS/src/build/ydlidar_tg15' returned '0': PYTHONPATH=/home/ubuntu/ros2_WS/src/build/ydlidar_tg15/prefix_override:/home/ubuntu/ros2_WS/src/install/ydlidar_tg15/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/ubuntu/ros2_WS/src/build/ydlidar_tg15/build --no-deps install_data

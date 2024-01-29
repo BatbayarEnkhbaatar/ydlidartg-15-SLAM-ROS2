@@ -1,0 +1,12 @@
+#!/usr/bin/python3
+# EASY-INSTALL-ENTRY-SCRIPT: 'ydlidar-tg15','console_scripts','ydlidar_tg15_node'
+__requires__ = 'ydlidar-tg15'
+import re
+import sys
+from pkg_resources import load_entry_point
+
+if __name__ == '__main__':
+    sys.argv[0] = re.sub(r'(-script\.pyw?|\.exe)?$', '', sys.argv[0])
+    sys.exit(
+        load_entry_point('ydlidar-tg15', 'console_scripts', 'ydlidar_tg15_node')()
+    )

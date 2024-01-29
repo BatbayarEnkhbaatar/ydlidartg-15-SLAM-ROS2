@@ -1,0 +1,15 @@
+running develop
+running egg_info
+writing ydlidar_tg15.egg-info/PKG-INFO
+writing dependency_links to ydlidar_tg15.egg-info/dependency_links.txt
+writing entry points to ydlidar_tg15.egg-info/entry_points.txt
+writing requirements to ydlidar_tg15.egg-info/requires.txt
+writing top-level names to ydlidar_tg15.egg-info/top_level.txt
+reading manifest file 'ydlidar_tg15.egg-info/SOURCES.txt'
+writing manifest file 'ydlidar_tg15.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/ubuntu/ros2_WS/src/install/ydlidar_tg15/lib/python3.8/site-packages/ydlidar-tg15.egg-link (link to .)
+Installing example_node script to /home/ubuntu/ros2_WS/src/install/ydlidar_tg15/lib/ydlidar_x4_example
+
+Installed /home/ubuntu/ros2_WS/src/build/ydlidar_tg15
+running install_data

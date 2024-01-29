@@ -1,0 +1,39 @@
+[0.000000] (-) TimerEvent: {}
+[0.000162] (-) JobUnselected: {'identifier': 'ydlidar_ros2_driver'}
+[0.000203] (-) JobUnselected: {'identifier': 'ydlidar_sdk'}
+[0.000238] (ydlidar_tg15) JobQueued: {'identifier': 'ydlidar_tg15', 'dependencies': OrderedDict()}
+[0.000271] (ydlidar_tg15) JobStarted: {'identifier': 'ydlidar_tg15'}
+[0.098731] (-) TimerEvent: {}
+[0.199000] (-) TimerEvent: {}
+[0.299388] (-) TimerEvent: {}
+[0.399925] (-) TimerEvent: {}
+[0.500632] (-) TimerEvent: {}
+[0.601205] (-) TimerEvent: {}
+[0.701706] (-) TimerEvent: {}
+[0.802038] (-) TimerEvent: {}
+[0.902453] (-) TimerEvent: {}
+[0.929383] (ydlidar_tg15) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--editable', '--build-directory', '/home/ubuntu/ros2_WS/src/build/ydlidar_tg15/build', '--no-deps', 'install_data'], 'cwd': '/home/ubuntu/ros2_WS/src/build/ydlidar_tg15', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ubuntu', 'SSH_CLIENT': '10.10.10.124 49675 22', 'LC_TIME': 'ko_KR.UTF-8', 'GIT_EDITOR': '"/home/ubuntu/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/git/dist/git-editor.sh"', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/ubuntu/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'BROWSER': '/home/ubuntu/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/bin/helpers/browser.sh', 'MOTD_SHOWN': 'pam', 'HOME': '/home/ubuntu', 'OLDPWD': '/home/ubuntu/ros2_WS', 'TERM_PROGRAM_VERSION': '1.85.2', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-c74ed3b4-178f-40ac-9c85-0b0b17a7030e.sock', 'VSCODE_GIT_EDITOR_MAIN': '/home/ubuntu/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/git/dist/git-editor-main.js', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_EDITOR_NODE': '/home/ubuntu/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node', 'VSCODE_GIT_ASKPASS_MAIN': '/home/ubuntu/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/git/dist/askpass-main.js', 'LC_MONETARY': 'ko_KR.UTF-8', 'VSCODE_GIT_ASKPASS_NODE': '/home/ubuntu/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/home/ubuntu/ros2_WS/src/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'ubuntu', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '22', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/ubuntu/ros2_WS/src/install/ydlidar_sdk/bin:/home/ubuntu/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/bin/remote-cli:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'LC_ADDRESS': 'ko_KR.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LC_TELEPHONE': 'ko_KR.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-d42b44950f.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/ubuntu/ros2_WS/src/install/ydlidar_ros2_driver:/opt/ros/foxy', 'SHELL': '/bin/bash', 'LC_NAME': 'ko_KR.UTF-8', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ko_KR.UTF-8', 'VSCODE_GIT_EDITOR_EXTRA_ARGS': '', 'LC_IDENTIFICATION': 'ko_KR.UTF-8', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/ubuntu/ros2_WS/src/build/ydlidar_tg15', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '10.10.10.124 49675 10.10.10.67 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ubuntu/ros2_WS/src/build/ydlidar_tg15/prefix_override:/home/ubuntu/ros2_WS/src/install/ydlidar_tg15/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'LC_NUMERIC': 'ko_KR.UTF-8', 'LC_PAPER': 'ko_KR.UTF-8', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/ubuntu/ros2_WS/src/install/ydlidar_sdk:/home/ubuntu/ros2_WS/src/install/ydlidar_ros2_driver'}, 'shell': False}
+[1.002593] (-) TimerEvent: {}
+[1.102936] (-) TimerEvent: {}
+[1.160406] (ydlidar_tg15) StdoutLine: {'line': b'running develop\n'}
+[1.203042] (-) TimerEvent: {}
+[1.286800] (ydlidar_tg15) StdoutLine: {'line': b'running egg_info\n'}
+[1.287025] (ydlidar_tg15) StdoutLine: {'line': b'writing ydlidar_tg15.egg-info/PKG-INFO\n'}
+[1.287196] (ydlidar_tg15) StdoutLine: {'line': b'writing dependency_links to ydlidar_tg15.egg-info/dependency_links.txt\n'}
+[1.287399] (ydlidar_tg15) StdoutLine: {'line': b'writing entry points to ydlidar_tg15.egg-info/entry_points.txt\n'}
+[1.287476] (ydlidar_tg15) StdoutLine: {'line': b'writing requirements to ydlidar_tg15.egg-info/requires.txt\n'}
+[1.287541] (ydlidar_tg15) StdoutLine: {'line': b'writing top-level names to ydlidar_tg15.egg-info/top_level.txt\n'}
+[1.303185] (-) TimerEvent: {}
+[1.318083] (ydlidar_tg15) StdoutLine: {'line': b"reading manifest file 'ydlidar_tg15.egg-info/SOURCES.txt'\n"}
+[1.318840] (ydlidar_tg15) StdoutLine: {'line': b"writing manifest file 'ydlidar_tg15.egg-info/SOURCES.txt'\n"}
+[1.351662] (ydlidar_tg15) StdoutLine: {'line': b'running build_ext\n'}
+[1.352025] (ydlidar_tg15) StdoutLine: {'line': b'Creating /home/ubuntu/ros2_WS/src/install/ydlidar_tg15/lib/python3.8/site-packages/ydlidar-tg15.egg-link (link to .)\n'}
+[1.352883] (ydlidar_tg15) StdoutLine: {'line': b'Installing example_node script to /home/ubuntu/ros2_WS/src/install/ydlidar_tg15/lib/ydlidar_x4_example\n'}
+[1.353158] (ydlidar_tg15) StdoutLine: {'line': b'\n'}
+[1.353339] (ydlidar_tg15) StdoutLine: {'line': b'Installed /home/ubuntu/ros2_WS/src/build/ydlidar_tg15\n'}
+[1.353443] (ydlidar_tg15) StdoutLine: {'line': b'running install_data\n'}
+[1.380091] (ydlidar_tg15) CommandEnded: {'returncode': 0}
+[1.403651] (-) TimerEvent: {}
+[1.505623] (-) TimerEvent: {}
+[1.542674] (ydlidar_tg15) JobEnded: {'identifier': 'ydlidar_tg15', 'rc': 0}
+[1.543370] (-) EventReactorShutdown: {}

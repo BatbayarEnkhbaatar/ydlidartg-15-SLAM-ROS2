@@ -1,0 +1,21 @@
+[1.335s] Invoking command in '/home/ubuntu/ros2_WS/src/build/ydlidar_x4_example': PYTHONPATH=/home/ubuntu/ros2_WS/src/build/ydlidar_x4_example/prefix_override:/home/ubuntu/ros2_WS/src/install/ydlidar_x4_example/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/ubuntu/ros2_WS/src/build/ydlidar_x4_example/build --no-deps install_data
+[1.860s] running develop
+[2.337s] running egg_info
+[2.338s] creating ydlidar_tg15.egg-info
+[2.342s] writing ydlidar_tg15.egg-info/PKG-INFO
+[2.343s] writing dependency_links to ydlidar_tg15.egg-info/dependency_links.txt
+[2.343s] writing entry points to ydlidar_tg15.egg-info/entry_points.txt
+[2.343s] writing requirements to ydlidar_tg15.egg-info/requires.txt
+[2.343s] writing top-level names to ydlidar_tg15.egg-info/top_level.txt
+[2.345s] writing manifest file 'ydlidar_tg15.egg-info/SOURCES.txt'
+[2.475s] reading manifest file 'ydlidar_tg15.egg-info/SOURCES.txt'
+[2.476s] writing manifest file 'ydlidar_tg15.egg-info/SOURCES.txt'
+[2.657s] running build_ext
+[2.659s] Creating /home/ubuntu/ros2_WS/src/install/ydlidar_x4_example/lib/python3.8/site-packages/site.py
+[2.665s] Creating /home/ubuntu/ros2_WS/src/install/ydlidar_x4_example/lib/python3.8/site-packages/ydlidar-tg15.egg-link (link to .)
+[2.683s] Installing example_node script to /home/ubuntu/ros2_WS/src/install/ydlidar_x4_example/lib/ydlidar_x4_example
+[2.685s] 
+[2.685s] Installed /home/ubuntu/ros2_WS/src/build/ydlidar_x4_example
+[2.685s] running install_data
+[2.689s] error: can't copy 'resource/ydlidar_tg15': doesn't exist or not a regular file
+[2.807s] Invoked command in '/home/ubuntu/ros2_WS/src/build/ydlidar_x4_example' returned '1': PYTHONPATH=/home/ubuntu/ros2_WS/src/build/ydlidar_x4_example/prefix_override:/home/ubuntu/ros2_WS/src/install/ydlidar_x4_example/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/ubuntu/ros2_WS/src/build/ydlidar_x4_example/build --no-deps install_data

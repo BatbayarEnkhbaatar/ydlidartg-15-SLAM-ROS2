@@ -1,0 +1,3 @@
+[console_scripts]
+ydlidar_tg15_node = ydlidar_tg15.ydlidar_tg15:main
+

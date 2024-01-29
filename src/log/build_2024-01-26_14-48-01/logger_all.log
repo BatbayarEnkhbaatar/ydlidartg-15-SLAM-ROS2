@@ -1,0 +1,103 @@
+[2.198s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install', '--packages-select', 'ydlidar_tg15']
+[2.198s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f56d7501460>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=['ydlidar_tg15'], packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=8, paths=None, symlink_install=True, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f56d7501460>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f56d70cff70>)
+[2.290s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[2.290s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[2.290s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[2.290s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[2.290s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[2.290s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[2.291s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/ubuntu/ros2_WS/src'
+[2.291s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[2.291s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[2.291s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[2.291s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[2.291s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[2.291s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[2.291s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[2.291s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[2.291s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[2.301s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[2.301s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[2.301s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[2.301s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[2.301s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[2.301s] Level 1:colcon.colcon_core.package_identification:_identify(YDLidar-SDK) by extensions ['ignore', 'ignore_ament_install']
+[2.301s] Level 1:colcon.colcon_core.package_identification:_identify(YDLidar-SDK) by extension 'ignore'
+[2.301s] Level 1:colcon.colcon_core.package_identification:_identify(YDLidar-SDK) by extension 'ignore_ament_install'
+[2.302s] Level 1:colcon.colcon_core.package_identification:_identify(YDLidar-SDK) by extensions ['colcon_pkg']
+[2.302s] Level 1:colcon.colcon_core.package_identification:_identify(YDLidar-SDK) by extension 'colcon_pkg'
+[2.302s] Level 1:colcon.colcon_core.package_identification:_identify(YDLidar-SDK) by extensions ['colcon_meta']
+[2.302s] Level 1:colcon.colcon_core.package_identification:_identify(YDLidar-SDK) by extension 'colcon_meta'
+[2.302s] Level 1:colcon.colcon_core.package_identification:_identify(YDLidar-SDK) by extensions ['ros']
+[2.302s] Level 1:colcon.colcon_core.package_identification:_identify(YDLidar-SDK) by extension 'ros'
+[2.302s] Level 1:colcon.colcon_core.package_identification:_identify(YDLidar-SDK) by extensions ['cmake', 'python']
+[2.302s] Level 1:colcon.colcon_core.package_identification:_identify(YDLidar-SDK) by extension 'cmake'
+[2.320s] Level 1:colcon.colcon_core.package_identification:_identify(YDLidar-SDK) by extension 'python'
+[2.320s] DEBUG:colcon.colcon_core.package_identification:Package 'YDLidar-SDK' with type 'cmake' and name 'ydlidar_sdk'
+[2.320s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[2.320s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[2.320s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[2.320s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[2.321s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[2.321s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[2.321s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[2.321s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[2.321s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[2.321s] Level 1:colcon.colcon_core.package_identification:_identify(ydlidar_ros2_driver) by extensions ['ignore', 'ignore_ament_install']
+[2.321s] Level 1:colcon.colcon_core.package_identification:_identify(ydlidar_ros2_driver) by extension 'ignore'
+[2.321s] Level 1:colcon.colcon_core.package_identification:_identify(ydlidar_ros2_driver) by extension 'ignore_ament_install'
+[2.321s] Level 1:colcon.colcon_core.package_identification:_identify(ydlidar_ros2_driver) by extensions ['colcon_pkg']
+[2.321s] Level 1:colcon.colcon_core.package_identification:_identify(ydlidar_ros2_driver) by extension 'colcon_pkg'
+[2.321s] Level 1:colcon.colcon_core.package_identification:_identify(ydlidar_ros2_driver) by extensions ['colcon_meta']
+[2.321s] Level 1:colcon.colcon_core.package_identification:_identify(ydlidar_ros2_driver) by extension 'colcon_meta'
+[2.321s] Level 1:colcon.colcon_core.package_identification:_identify(ydlidar_ros2_driver) by extensions ['ros']
+[2.321s] Level 1:colcon.colcon_core.package_identification:_identify(ydlidar_ros2_driver) by extension 'ros'
+[2.324s] DEBUG:colcon.colcon_core.package_identification:Package 'ydlidar_ros2_driver' with type 'ros.ament_cmake' and name 'ydlidar_ros2_driver'
+[2.324s] Level 1:colcon.colcon_core.package_identification:_identify(ydlidar_tg15) by extensions ['ignore', 'ignore_ament_install']
+[2.324s] Level 1:colcon.colcon_core.package_identification:_identify(ydlidar_tg15) by extension 'ignore'
+[2.324s] Level 1:colcon.colcon_core.package_identification:_identify(ydlidar_tg15) by extension 'ignore_ament_install'
+[2.324s] Level 1:colcon.colcon_core.package_identification:_identify(ydlidar_tg15) by extensions ['colcon_pkg']
+[2.324s] Level 1:colcon.colcon_core.package_identification:_identify(ydlidar_tg15) by extension 'colcon_pkg'
+[2.324s] Level 1:colcon.colcon_core.package_identification:_identify(ydlidar_tg15) by extensions ['colcon_meta']
+[2.324s] Level 1:colcon.colcon_core.package_identification:_identify(ydlidar_tg15) by extension 'colcon_meta'
+[2.324s] Level 1:colcon.colcon_core.package_identification:_identify(ydlidar_tg15) by extensions ['ros']
+[2.324s] Level 1:colcon.colcon_core.package_identification:_identify(ydlidar_tg15) by extension 'ros'
+[2.325s] DEBUG:colcon.colcon_core.package_identification:Package 'ydlidar_tg15' with type 'ros.ament_python' and name 'ydlidar_x4_example'
+[2.325s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[2.325s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[2.325s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[2.325s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[2.325s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[2.364s] WARNING:colcon.colcon_core.package_selection:ignoring unknown package 'ydlidar_tg15' in --packages-select
+[2.461s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'ydlidar_ros2_driver' in 'ydlidar_ros2_driver'
+[2.461s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'ydlidar_sdk' in 'YDLidar-SDK'
+[2.461s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'ydlidar_x4_example' in 'ydlidar_tg15'
+[2.534s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[2.534s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[2.572s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/ubuntu/ros2_WS/src/install/ydlidar_ros2_driver' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[2.572s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/ubuntu/ros2_WS/src/install/ydlidar_sdk' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[2.572s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/ubuntu/ros2_WS/src/install/ydlidar_ros2_driver' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[2.609s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 0 installed packages in /home/ubuntu/ros2_WS/src/install
+[2.646s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 258 installed packages in /opt/ros/foxy
+[2.647s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[2.791s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[2.827s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[2.827s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.828s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.828s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[2.828s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.872s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.872s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.872s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[2.882s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.921s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[2.922s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/ros2_WS/src/install/local_setup.ps1'
+[2.922s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ubuntu/ros2_WS/src/install/_local_setup_util_ps1.py'
+[2.924s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/ros2_WS/src/install/setup.ps1'
+[2.972s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/ros2_WS/src/install/local_setup.sh'
+[2.972s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ubuntu/ros2_WS/src/install/_local_setup_util_sh.py'
+[2.973s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/ros2_WS/src/install/setup.sh'
+[3.010s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/ros2_WS/src/install/local_setup.bash'
+[3.010s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/ros2_WS/src/install/setup.bash'
+[3.049s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/ros2_WS/src/install/local_setup.zsh'
+[3.049s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/ros2_WS/src/install/setup.zsh'

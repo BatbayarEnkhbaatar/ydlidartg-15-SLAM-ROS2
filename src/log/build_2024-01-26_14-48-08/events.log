@@ -1,0 +1,276 @@
+[0.000000] (-) TimerEvent: {}
+[0.000208] (ydlidar_ros2_driver) JobQueued: {'identifier': 'ydlidar_ros2_driver', 'dependencies': OrderedDict()}
+[0.000253] (ydlidar_sdk) JobQueued: {'identifier': 'ydlidar_sdk', 'dependencies': OrderedDict()}
+[0.000286] (ydlidar_x4_example) JobQueued: {'identifier': 'ydlidar_x4_example', 'dependencies': OrderedDict()}
+[0.000317] (ydlidar_ros2_driver) JobStarted: {'identifier': 'ydlidar_ros2_driver'}
+[0.099365] (-) TimerEvent: {}
+[0.166603] (ydlidar_sdk) JobStarted: {'identifier': 'ydlidar_sdk'}
+[0.200130] (-) TimerEvent: {}
+[0.301250] (-) TimerEvent: {}
+[0.322928] (ydlidar_x4_example) JobStarted: {'identifier': 'ydlidar_x4_example'}
+[0.401965] (-) TimerEvent: {}
+[0.502916] (-) TimerEvent: {}
+[0.522609] (ydlidar_ros2_driver) JobProgress: {'identifier': 'ydlidar_ros2_driver', 'progress': 'cmake'}
+[0.523213] (ydlidar_ros2_driver) Command: {'cmd': ['/usr/bin/cmake', '/home/ubuntu/ros2_WS/src/ydlidar_ros2_driver', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2_WS/src/install/ydlidar_ros2_driver'], 'cwd': '/home/ubuntu/ros2_WS/src/build/ydlidar_ros2_driver', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('SSH_CLIENT', '10.10.10.124 49675 22'), ('LC_TIME', 'ko_KR.UTF-8'), ('GIT_EDITOR', '"/home/ubuntu/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/git/dist/git-editor.sh"'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/ubuntu/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('BROWSER', '/home/ubuntu/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu/ros2_WS'), ('TERM_PROGRAM_VERSION', '1.85.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-c74ed3b4-178f-40ac-9c85-0b0b17a7030e.sock'), ('VSCODE_GIT_EDITOR_MAIN', '/home/ubuntu/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/git/dist/git-editor-main.js'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_EDITOR_NODE', '/home/ubuntu/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/ubuntu/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/home/ubuntu/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/ubuntu/ros2_WS/src/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'ubuntu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '22'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ubuntu/ros2_WS/src/install/ydlidar_sdk/bin:/home/ubuntu/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/bin/remote-cli:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-d42b44950f.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/ubuntu/ros2_WS/src/install/ydlidar_ros2_driver:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('VSCODE_GIT_EDITOR_EXTRA_ARGS', ''), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/ubuntu/ros2_WS/src/build/ydlidar_ros2_driver'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '10.10.10.124 49675 10.10.10.67 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/ros2_WS/src/install/ydlidar_sdk:/home/ubuntu/ros2_WS/src/install/ydlidar_ros2_driver:/opt/ros/foxy')]), 'shell': False}
+[0.527778] (ydlidar_sdk) JobProgress: {'identifier': 'ydlidar_sdk', 'progress': 'cmake'}
+[0.529287] (ydlidar_sdk) Command: {'cmd': ['/usr/bin/cmake', '/home/ubuntu/ros2_WS/src/YDLidar-SDK', '-DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2_WS/src/install/ydlidar_sdk'], 'cwd': '/home/ubuntu/ros2_WS/src/build/ydlidar_sdk', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('SSH_CLIENT', '10.10.10.124 49675 22'), ('LC_TIME', 'ko_KR.UTF-8'), ('GIT_EDITOR', '"/home/ubuntu/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/git/dist/git-editor.sh"'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/ubuntu/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('BROWSER', '/home/ubuntu/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu/ros2_WS'), ('TERM_PROGRAM_VERSION', '1.85.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-c74ed3b4-178f-40ac-9c85-0b0b17a7030e.sock'), ('VSCODE_GIT_EDITOR_MAIN', '/home/ubuntu/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/git/dist/git-editor-main.js'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_EDITOR_NODE', '/home/ubuntu/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/ubuntu/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/home/ubuntu/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/ubuntu/ros2_WS/src/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'ubuntu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '22'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ubuntu/ros2_WS/src/install/ydlidar_sdk/bin:/home/ubuntu/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/bin/remote-cli:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-d42b44950f.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/ubuntu/ros2_WS/src/install/ydlidar_ros2_driver:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('VSCODE_GIT_EDITOR_EXTRA_ARGS', ''), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/ubuntu/ros2_WS/src/build/ydlidar_sdk'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '10.10.10.124 49675 10.10.10.67 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/ros2_WS/src/install/ydlidar_sdk:/home/ubuntu/ros2_WS/src/install/ydlidar_ros2_driver')]), 'shell': False}
+[0.594548] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.603036] (-) TimerEvent: {}
+[0.620053] (ydlidar_sdk) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.664501] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.675002] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.703124] (-) TimerEvent: {}
+[0.709735] (ydlidar_sdk) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.719955] (ydlidar_sdk) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.764280] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.765494] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.803232] (-) TimerEvent: {}
+[0.811547] (ydlidar_sdk) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.812940] (ydlidar_sdk) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.858317] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.879360] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.882576] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.885281] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.903564] (-) TimerEvent: {}
+[0.906853] (ydlidar_sdk) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.928016] (ydlidar_sdk) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.929619] (ydlidar_sdk) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.934946] (ydlidar_sdk) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.998357] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[1.000671] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.005135] (-) TimerEvent: {}
+[1.047092] (ydlidar_sdk) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[1.051358] (ydlidar_sdk) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.105369] (-) TimerEvent: {}
+[1.128011] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.146006] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.147024] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.149707] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[1.171931] (ydlidar_sdk) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.180638] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[1.180928] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.204072] (ydlidar_sdk) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.205474] (ydlidar_sdk) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.205663] (-) TimerEvent: {}
+[1.207322] (ydlidar_sdk) StdoutLine: {'line': b'-- Current platform: Linux\n'}
+[1.209033] (ydlidar_sdk) StderrLine: {'line': b'CMake Deprecation Warning at CMakeLists.txt:50 (cmake_policy):\n'}
+[1.209310] (ydlidar_sdk) StderrLine: {'line': b'  The OLD behavior for policy CMP0053 will be removed from a future version\n'}
+[1.209490] (ydlidar_sdk) StderrLine: {'line': b'  of CMake.\n'}
+[1.209640] (ydlidar_sdk) StderrLine: {'line': b'\n'}
+[1.209800] (ydlidar_sdk) StderrLine: {'line': b'  The cmake-policies(7) manual explains that the OLD behaviors of all\n'}
+[1.209948] (ydlidar_sdk) StderrLine: {'line': b'  policies are deprecated and that a policy should be set to OLD only under\n'}
+[1.210092] (ydlidar_sdk) StderrLine: {'line': b'  specific short-term circumstances.  Projects should be ported to the NEW\n'}
+[1.210236] (ydlidar_sdk) StderrLine: {'line': b'  behavior and not rely on setting a policy to OLD.\n'}
+[1.210411] (ydlidar_sdk) StderrLine: {'line': b'\n'}
+[1.210603] (ydlidar_sdk) StderrLine: {'line': b'\n'}
+[1.210796] (ydlidar_sdk) StderrLine: {'line': b'CMake Deprecation Warning at CMakeLists.txt:53 (cmake_policy):\n'}
+[1.210987] (ydlidar_sdk) StderrLine: {'line': b'  The OLD behavior for policy CMP0037 will be removed from a future version\n'}
+[1.211180] (ydlidar_sdk) StderrLine: {'line': b'  of CMake.\n'}
+[1.211369] (ydlidar_sdk) StderrLine: {'line': b'\n'}
+[1.211631] (ydlidar_sdk) StderrLine: {'line': b'  The cmake-policies(7) manual explains that the OLD behaviors of all\n'}
+[1.211853] (ydlidar_sdk) StderrLine: {'line': b'  policies are deprecated and that a policy should be set to OLD only under\n'}
+[1.212054] (ydlidar_sdk) StderrLine: {'line': b'  specific short-term circumstances.  Projects should be ported to the NEW\n'}
+[1.212282] (ydlidar_sdk) StderrLine: {'line': b'  behavior and not rely on setting a policy to OLD.\n'}
+[1.212491] (ydlidar_sdk) StderrLine: {'line': b'\n'}
+[1.212679] (ydlidar_sdk) StderrLine: {'line': b'\n'}
+[1.212869] (ydlidar_sdk) StderrLine: {'line': b'CMake Deprecation Warning at CMakeLists.txt:56 (cmake_policy):\n'}
+[1.213057] (ydlidar_sdk) StderrLine: {'line': b'  The OLD behavior for policy CMP0043 will be removed from a future version\n'}
+[1.213258] (ydlidar_sdk) StderrLine: {'line': b'  of CMake.\n'}
+[1.213467] (ydlidar_sdk) StderrLine: {'line': b'\n'}
+[1.213657] (ydlidar_sdk) StderrLine: {'line': b'  The cmake-policies(7) manual explains that the OLD behaviors of all\n'}
+[1.213852] (ydlidar_sdk) StderrLine: {'line': b'  policies are deprecated and that a policy should be set to OLD only under\n'}
+[1.214047] (ydlidar_sdk) StderrLine: {'line': b'  specific short-term circumstances.  Projects should be ported to the NEW\n'}
+[1.214243] (ydlidar_sdk) StderrLine: {'line': b'  behavior and not rely on setting a policy to OLD.\n'}
+[1.214457] (ydlidar_sdk) StderrLine: {'line': b'\n'}
+[1.214636] (ydlidar_sdk) StderrLine: {'line': b'\n'}
+[1.214815] (ydlidar_sdk) StdoutLine: {'line': b'-- Could NOT find SWIG (missing: SWIG_EXECUTABLE SWIG_DIR) \n'}
+[1.244108] (ydlidar_sdk) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3.8 (found version "3.8.10") \n'}
+[1.262747] (ydlidar_sdk) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found version "3.8.10") \n'}
+[1.300888] (ydlidar_sdk) StdoutLine: {'line': b'-- Found GTest: /usr/lib/x86_64-linux-gnu/libgtest.a  \n'}
+[1.305763] (-) TimerEvent: {}
+[1.406079] (-) TimerEvent: {}
+[1.439381] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[1.467447] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[1.506210] (-) TimerEvent: {}
+[1.530047] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.538297] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[1.606316] (-) TimerEvent: {}
+[1.654525] (ydlidar_x4_example) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--editable', '--build-directory', '/home/ubuntu/ros2_WS/src/build/ydlidar_x4_example/build', '--no-deps', 'install_data'], 'cwd': '/home/ubuntu/ros2_WS/src/build/ydlidar_x4_example', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ubuntu', 'SSH_CLIENT': '10.10.10.124 49675 22', 'LC_TIME': 'ko_KR.UTF-8', 'GIT_EDITOR': '"/home/ubuntu/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/git/dist/git-editor.sh"', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/ubuntu/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'BROWSER': '/home/ubuntu/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/bin/helpers/browser.sh', 'MOTD_SHOWN': 'pam', 'HOME': '/home/ubuntu', 'OLDPWD': '/home/ubuntu/ros2_WS', 'TERM_PROGRAM_VERSION': '1.85.2', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-c74ed3b4-178f-40ac-9c85-0b0b17a7030e.sock', 'VSCODE_GIT_EDITOR_MAIN': '/home/ubuntu/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/git/dist/git-editor-main.js', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_EDITOR_NODE': '/home/ubuntu/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node', 'VSCODE_GIT_ASKPASS_MAIN': '/home/ubuntu/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/git/dist/askpass-main.js', 'LC_MONETARY': 'ko_KR.UTF-8', 'VSCODE_GIT_ASKPASS_NODE': '/home/ubuntu/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/home/ubuntu/ros2_WS/src/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'ubuntu', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '22', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/ubuntu/ros2_WS/src/install/ydlidar_sdk/bin:/home/ubuntu/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/bin/remote-cli:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'LC_ADDRESS': 'ko_KR.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LC_TELEPHONE': 'ko_KR.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-d42b44950f.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/ubuntu/ros2_WS/src/install/ydlidar_ros2_driver:/opt/ros/foxy', 'SHELL': '/bin/bash', 'LC_NAME': 'ko_KR.UTF-8', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ko_KR.UTF-8', 'VSCODE_GIT_EDITOR_EXTRA_ARGS': '', 'LC_IDENTIFICATION': 'ko_KR.UTF-8', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/ubuntu/ros2_WS/src/build/ydlidar_x4_example', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '10.10.10.124 49675 10.10.10.67 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ubuntu/ros2_WS/src/build/ydlidar_x4_example/prefix_override:/home/ubuntu/ros2_WS/src/install/ydlidar_x4_example/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'LC_NUMERIC': 'ko_KR.UTF-8', 'LC_PAPER': 'ko_KR.UTF-8', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/ubuntu/ros2_WS/src/install/ydlidar_sdk:/home/ubuntu/ros2_WS/src/install/ydlidar_ros2_driver'}, 'shell': False}
+[1.658360] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[1.698715] (ydlidar_sdk) StderrLine: {'line': b'CMake Deprecation Warning at cmake/install_package.cmake:101 (cmake_policy):\n'}
+[1.699033] (ydlidar_sdk) StderrLine: {'line': b'  The OLD behavior for policy CMP0026 will be removed from a future version\n'}
+[1.699216] (ydlidar_sdk) StderrLine: {'line': b'  of CMake.\n'}
+[1.699405] (ydlidar_sdk) StderrLine: {'line': b'\n'}
+[1.699589] (ydlidar_sdk) StderrLine: {'line': b'  The cmake-policies(7) manual explains that the OLD behaviors of all\n'}
+[1.699774] (ydlidar_sdk) StderrLine: {'line': b'  policies are deprecated and that a policy should be set to OLD only under\n'}
+[1.699979] (ydlidar_sdk) StderrLine: {'line': b'  specific short-term circumstances.  Projects should be ported to the NEW\n'}
+[1.700197] (ydlidar_sdk) StderrLine: {'line': b'  behavior and not rely on setting a policy to OLD.\n'}
+[1.700426] (ydlidar_sdk) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.700643] (ydlidar_sdk) StderrLine: {'line': b'  CMakeLists.txt:168 (install_package)\n'}
+[1.700857] (ydlidar_sdk) StderrLine: {'line': b'\n'}
+[1.701071] (ydlidar_sdk) StderrLine: {'line': b'\n'}
+[1.705493] (ydlidar_sdk) StderrLine: {'line': b'CMake Warning (dev) at cmake/install_package.cmake:191 (install):\n'}
+[1.705775] (ydlidar_sdk) StderrLine: {'line': b'  Policy CMP0062 is not set: Disallow install() of export() result.  Run\n'}
+[1.705998] (ydlidar_sdk) StderrLine: {'line': b'  "cmake --help-policy CMP0062" for policy details.  Use the cmake_policy\n'}
+[1.706214] (ydlidar_sdk) StderrLine: {'line': b'  command to set the policy and suppress this warning.\n'}
+[1.706418] (-) TimerEvent: {}
+[1.706775] (ydlidar_sdk) StderrLine: {'line': b'\n'}
+[1.707022] (ydlidar_sdk) StderrLine: {'line': b'  The file\n'}
+[1.707246] (ydlidar_sdk) StderrLine: {'line': b'\n'}
+[1.707467] (ydlidar_sdk) StderrLine: {'line': b'    /home/ubuntu/ros2_WS/src/build/ydlidar_sdk/ydlidar_sdkTargets.cmake\n'}
+[1.707692] (ydlidar_sdk) StderrLine: {'line': b'\n'}
+[1.707912] (ydlidar_sdk) StderrLine: {'line': b'  was generated by the export() command.  It should not be installed with the\n'}
+[1.708150] (ydlidar_sdk) StderrLine: {'line': b'  install() command.  Use the install(EXPORT) mechanism instead.  See the\n'}
+[1.708386] (ydlidar_sdk) StderrLine: {'line': b'  cmake-packages(7) manual for more.\n'}
+[1.708615] (ydlidar_sdk) StderrLine: {'line': b'\n'}
+[1.708835] (ydlidar_sdk) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.709119] (ydlidar_sdk) StderrLine: {'line': b'  CMakeLists.txt:168 (install_package)\n'}
+[1.709344] (ydlidar_sdk) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[1.709559] (ydlidar_sdk) StderrLine: {'line': b'\n'}
+[1.711272] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[1.732907] (ydlidar_sdk) StdoutLine: {'line': b'-- \n'}
+[1.733251] (ydlidar_sdk) StdoutLine: {'line': b'-- +===========================================================================+\n'}
+[1.733646] (ydlidar_sdk) StdoutLine: {'line': b'-- |         Resulting configuration for                             |\n'}
+[1.733933] (ydlidar_sdk) StdoutLine: {'line': b'-- +===========================================================================+\n'}
+[1.734154] (ydlidar_sdk) StdoutLine: {'line': b'--  _________________________ PLATFORM _____________________________\n'}
+[1.734315] (ydlidar_sdk) StdoutLine: {'line': b'--  Host                        : Linux5.15.0-92-genericx86_64\n'}
+[1.734480] (ydlidar_sdk) StdoutLine: {'line': b'--  Is the system big endian?   :  No \n'}
+[1.734637] (ydlidar_sdk) StdoutLine: {'line': b'--  Word size (32/64 bit)       : 64\n'}
+[1.734819] (ydlidar_sdk) StdoutLine: {'line': b'--  CMake version               : 3.16.3\n'}
+[1.734983] (ydlidar_sdk) StdoutLine: {'line': b'--  CMake generator             : Unix Makefiles\n'}
+[1.735133] (ydlidar_sdk) StdoutLine: {'line': b'--  CMake build tool            : /usr/bin/make\n'}
+[1.735264] (ydlidar_sdk) StdoutLine: {'line': b'--  Compiler                    : GNU\n'}
+[1.735396] (ydlidar_sdk) StdoutLine: {'line': b'--  Configuration               : \n'}
+[1.735502] (ydlidar_sdk) StdoutLine: {'line': b'-- \n'}
+[1.735627] (ydlidar_sdk) StdoutLine: {'line': b'--  __________________________ OPTIONS _____________________________\n'}
+[1.735762] (ydlidar_sdk) StdoutLine: {'line': b'--  Build YDLidar-SDK as a shared library?\xe3\x80\x80\xe3\x80\x80 :  No \n'}
+[1.735926] (ydlidar_sdk) StdoutLine: {'line': b'--  Build Examples?\xe3\x80\x80\xe3\x80\x80\xe3\x80\x80\xe3\x80\x80\xe3\x80\x80\xe3\x80\x80\xe3\x80\x80\xe3\x80\x80\xe3\x80\x80\xe3\x80\x80\xe3\x80\x80\xe3\x80\x80\xe3\x80\x80\xe3\x80\x80 : Yes \n'}
+[1.736099] (ydlidar_sdk) StdoutLine: {'line': b'--  Build C Sharp API?\xe3\x80\x80\xe3\x80\x80\xe3\x80\x80\xe3\x80\x80\xe3\x80\x80\xe3\x80\x80\xe3\x80\x80\xe3\x80\x80\xe3\x80\x80\xe3\x80\x80\xe3\x80\x80\xe3\x80\x80 :  No \n'}
+[1.736292] (ydlidar_sdk) StdoutLine: {'line': b'--  Build TEST?  \t\t\t\xe3\x80\x80\xe3\x80\x80\xe3\x80\x80 :  No \n'}
+[1.736463] (ydlidar_sdk) StdoutLine: {'line': b'-- \n'}
+[1.736618] (ydlidar_sdk) StdoutLine: {'line': b'--  _________________________ INSTALL _____________________\n'}
+[1.736791] (ydlidar_sdk) StdoutLine: {'line': b'--  Install prefix                    : /home/ubuntu/ros2_WS/src/install/ydlidar_sdk\n'}
+[1.736950] (ydlidar_sdk) StdoutLine: {'line': b'-- \n'}
+[1.737118] (ydlidar_sdk) StdoutLine: {'line': b'--  _______________________ WRAPPERS/BINDINGS ______________________\n'}
+[1.737300] (ydlidar_sdk) StdoutLine: {'line': b'--  Python bindings (pyydlidar)   :  No \n'}
+[1.737459] (ydlidar_sdk) StdoutLine: {'line': b'--   - dep: Swig found?       :  No [Version: ]\n'}
+[1.737614] (ydlidar_sdk) StdoutLine: {'line': b'--   - dep: PythonLibs found?  : Yes [Version: 3.8.10]\n'}
+[1.737769] (ydlidar_sdk) StdoutLine: {'line': b'-- \n'}
+[1.747054] (ydlidar_sdk) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.791796] (ydlidar_sdk) StdoutLine: {'line': b'-- Generating done\n'}
+[1.795163] (ydlidar_sdk) StdoutLine: {'line': b'-- Build files have been written to: /home/ubuntu/ros2_WS/src/build/ydlidar_sdk\n'}
+[1.812730] (ydlidar_sdk) CommandEnded: {'returncode': 0}
+[1.815055] (-) TimerEvent: {}
+[1.815583] (ydlidar_sdk) JobProgress: {'identifier': 'ydlidar_sdk', 'progress': 'build'}
+[1.815694] (ydlidar_sdk) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ubuntu/ros2_WS/src/build/ydlidar_sdk', '--', '-j8', '-l8'], 'cwd': '/home/ubuntu/ros2_WS/src/build/ydlidar_sdk', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('SSH_CLIENT', '10.10.10.124 49675 22'), ('LC_TIME', 'ko_KR.UTF-8'), ('GIT_EDITOR', '"/home/ubuntu/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/git/dist/git-editor.sh"'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/ubuntu/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('BROWSER', '/home/ubuntu/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu/ros2_WS'), ('TERM_PROGRAM_VERSION', '1.85.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-c74ed3b4-178f-40ac-9c85-0b0b17a7030e.sock'), ('VSCODE_GIT_EDITOR_MAIN', '/home/ubuntu/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/git/dist/git-editor-main.js'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_EDITOR_NODE', '/home/ubuntu/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/ubuntu/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/home/ubuntu/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/ubuntu/ros2_WS/src/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'ubuntu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '22'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ubuntu/ros2_WS/src/install/ydlidar_sdk/bin:/home/ubuntu/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/bin/remote-cli:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-d42b44950f.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/ubuntu/ros2_WS/src/install/ydlidar_ros2_driver:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('VSCODE_GIT_EDITOR_EXTRA_ARGS', ''), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/ubuntu/ros2_WS/src/build/ydlidar_sdk'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '10.10.10.124 49675 10.10.10.67 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/ros2_WS/src/install/ydlidar_sdk:/home/ubuntu/ros2_WS/src/install/ydlidar_ros2_driver')]), 'shell': False}
+[1.844756] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.866303] (ydlidar_sdk) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target ydlidar_sdk\x1b[0m\n'}
+[1.909122] (ydlidar_sdk) StdoutLine: {'line': b'[  2%] \x1b[32mBuilding CXX object CMakeFiles/ydlidar_sdk.dir/core/common/ydlidar_def.cpp.o\x1b[0m\n'}
+[1.909804] (ydlidar_sdk) StdoutLine: {'line': b'[  4%] \x1b[32mBuilding CXX object CMakeFiles/ydlidar_sdk.dir/core/base/timer.cpp.o\x1b[0m\n'}
+[1.914801] (ydlidar_sdk) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding CXX object CMakeFiles/ydlidar_sdk.dir/core/network/SimpleSocket.cpp.o\x1b[0m\n'}
+[1.915077] (-) TimerEvent: {}
+[1.920982] (ydlidar_sdk) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding CXX object CMakeFiles/ydlidar_sdk.dir/core/network/ActiveSocket.cpp.o\x1b[0m\n'}
+[1.936962] (ydlidar_sdk) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding C object CMakeFiles/ydlidar_sdk.dir/core/serial/impl/unix/lock.c.o\x1b[0m\n'}
+[1.942050] (ydlidar_sdk) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding CXX object CMakeFiles/ydlidar_sdk.dir/core/serial/serial.cpp.o\x1b[0m\n'}
+[1.944066] (ydlidar_sdk) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/ydlidar_sdk.dir/core/network/PassiveSocket.cpp.o\x1b[0m\n'}
+[1.961212] (ydlidar_sdk) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding CXX object CMakeFiles/ydlidar_sdk.dir/core/serial/impl/unix/list_ports_linux.cpp.o\x1b[0m\n'}
+[1.974972] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[1.979081] (ydlidar_ros2_driver) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.982195] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[2.015212] (-) TimerEvent: {}
+[2.102486] (ydlidar_sdk) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/ydlidar_sdk.dir/core/serial/impl/unix/unix_serial.cpp.o\x1b[0m\n'}
+[2.115327] (-) TimerEvent: {}
+[2.183014] (ydlidar_x4_example) StdoutLine: {'line': b'running develop\n'}
+[2.215444] (-) TimerEvent: {}
+[2.229396] (ydlidar_sdk) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object CMakeFiles/ydlidar_sdk.dir/src/CYdLidar.cpp.o\x1b[0m\n'}
+[2.315569] (-) TimerEvent: {}
+[2.357575] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[2.363839] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[2.415679] (-) TimerEvent: {}
+[2.500898] (ydlidar_sdk) StdoutLine: {'line': b'[ 26%] \x1b[32mBuilding CXX object CMakeFiles/ydlidar_sdk.dir/src/ETLidarDriver.cpp.o\x1b[0m\n'}
+[2.515794] (-) TimerEvent: {}
+[2.616198] (-) TimerEvent: {}
+[2.659974] (ydlidar_x4_example) StdoutLine: {'line': b'running egg_info\n'}
+[2.660455] (ydlidar_x4_example) StdoutLine: {'line': b'creating ydlidar_tg15.egg-info\n'}
+[2.665170] (ydlidar_x4_example) StdoutLine: {'line': b'writing ydlidar_tg15.egg-info/PKG-INFO\n'}
+[2.665516] (ydlidar_x4_example) StdoutLine: {'line': b'writing dependency_links to ydlidar_tg15.egg-info/dependency_links.txt\n'}
+[2.665718] (ydlidar_x4_example) StdoutLine: {'line': b'writing entry points to ydlidar_tg15.egg-info/entry_points.txt\n'}
+[2.665921] (ydlidar_x4_example) StdoutLine: {'line': b'writing requirements to ydlidar_tg15.egg-info/requires.txt\n'}
+[2.666092] (ydlidar_x4_example) StdoutLine: {'line': b'writing top-level names to ydlidar_tg15.egg-info/top_level.txt\n'}
+[2.667521] (ydlidar_x4_example) StdoutLine: {'line': b"writing manifest file 'ydlidar_tg15.egg-info/SOURCES.txt'\n"}
+[2.716319] (-) TimerEvent: {}
+[2.797645] (ydlidar_x4_example) StdoutLine: {'line': b"reading manifest file 'ydlidar_tg15.egg-info/SOURCES.txt'\n"}
+[2.799077] (ydlidar_x4_example) StdoutLine: {'line': b"writing manifest file 'ydlidar_tg15.egg-info/SOURCES.txt'\n"}
+[2.811407] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[2.816429] (-) TimerEvent: {}
+[2.825029] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[2.834552] (ydlidar_sdk) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/ydlidar_sdk.dir/src/GSLidarDriver.cpp.o\x1b[0m\n'}
+[2.916553] (-) TimerEvent: {}
+[2.979743] (ydlidar_x4_example) StdoutLine: {'line': b'running build_ext\n'}
+[2.981691] (ydlidar_x4_example) StdoutLine: {'line': b'Creating /home/ubuntu/ros2_WS/src/install/ydlidar_x4_example/lib/python3.8/site-packages/site.py\n'}
+[2.987699] (ydlidar_x4_example) StdoutLine: {'line': b'Creating /home/ubuntu/ros2_WS/src/install/ydlidar_x4_example/lib/python3.8/site-packages/ydlidar-tg15.egg-link (link to .)\n'}
+[3.005885] (ydlidar_x4_example) StdoutLine: {'line': b'Installing example_node script to /home/ubuntu/ros2_WS/src/install/ydlidar_x4_example/lib/ydlidar_x4_example\n'}
+[3.007673] (ydlidar_x4_example) StdoutLine: {'line': b'\n'}
+[3.007987] (ydlidar_x4_example) StdoutLine: {'line': b'Installed /home/ubuntu/ros2_WS/src/build/ydlidar_x4_example\n'}
+[3.008312] (ydlidar_x4_example) StdoutLine: {'line': b'running install_data\n'}
+[3.011255] (ydlidar_x4_example) StderrLine: {'line': b"error: can't copy 'resource/ydlidar_tg15': doesn't exist or not a regular file\n"}
+[3.016680] (-) TimerEvent: {}
+[3.117803] (-) TimerEvent: {}
+[3.129446] (ydlidar_x4_example) CommandEnded: {'returncode': 1}
+[3.130308] (ydlidar_x4_example) JobEnded: {'identifier': 'ydlidar_x4_example', 'rc': 1}
+[3.163305] (ydlidar_sdk) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/ydlidar_sdk.dir/src/SDMLidarDriver.cpp.o\x1b[0m\n'}
+[3.205928] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[3.206492] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[3.215475] (ydlidar_sdk) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ubuntu/ros2_WS/src/YDLidar-SDK/core/serial/common.h:45\x1b[m\x1b[K,\n'}
+[3.215833] (ydlidar_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/ros2_WS/src/YDLidar-SDK/core/serial/serial.cpp:12\x1b[m\x1b[K:\n'}
+[3.216059] (ydlidar_sdk) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/ros2_WS/src/YDLidar-SDK/./core/base/thread.h:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kint ydlidar::core::base::Thread::join(long unsigned int)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.216363] (ydlidar_sdk) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/ros2_WS/src/YDLidar-SDK/./core/base/thread.h:136:46:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%X\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Kunsigned int\x1b[m\x1b[K\xe2\x80\x99, but argument 2 has type \xe2\x80\x98\x1b[01m\x1b[K_size_t\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K-Wformat=\x1b[m\x1b[K]\n'}
+[3.216606] (ydlidar_sdk) StderrLine: {'line': b'  136 |           printf("[YDLIDAR DEBUG] Thread [0x\x1b[01;35m\x1b[K%X\x1b[m\x1b[K] ready to cancel[%d]\\n", \x1b[32m\x1b[K_handle\x1b[m\x1b[K, s);\n'}
+[3.216828] (ydlidar_sdk) StderrLine: {'line': b'      |                                             \x1b[01;35m\x1b[K~^\x1b[m\x1b[K                          \x1b[32m\x1b[K~~~~~~~\x1b[m\x1b[K\n'}
+[3.217044] (ydlidar_sdk) StderrLine: {'line': b'      |                                              \x1b[01;35m\x1b[K|\x1b[m\x1b[K                          \x1b[32m\x1b[K|\x1b[m\x1b[K\n'}
+[3.217248] (ydlidar_sdk) StderrLine: {'line': b'      |                                              \x1b[01;35m\x1b[Kunsigned int\x1b[m\x1b[K               \x1b[32m\x1b[K_size_t {aka long unsigned int}\x1b[m\x1b[K\n'}
+[3.217467] (ydlidar_sdk) StderrLine: {'line': b'      |                                             \x1b[32m\x1b[K%lX\x1b[m\x1b[K\n'}
+[3.217838] (ydlidar_sdk) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/ros2_WS/src/YDLidar-SDK/./core/base/thread.h:138:46:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%X\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Kunsigned int\x1b[m\x1b[K\xe2\x80\x99, but argument 2 has type \xe2\x80\x98\x1b[01m\x1b[K_size_t\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K-Wformat=\x1b[m\x1b[K]\n'}
+[3.218059] (-) TimerEvent: {}
+[3.218275] (ydlidar_sdk) StderrLine: {'line': b'  138 |           printf("[YDLIDAR DEBUG] Thread [0x\x1b[01;35m\x1b[K%X\x1b[m\x1b[K] ready to cancel[%d] time[%u]\\n",\n'}
+[3.218512] (ydlidar_sdk) StderrLine: {'line': b'      |                                             \x1b[01;35m\x1b[K~^\x1b[m\x1b[K\n'}
+[3.218726] (ydlidar_sdk) StderrLine: {'line': b'      |                                              \x1b[01;35m\x1b[K|\x1b[m\x1b[K\n'}
+[3.218933] (ydlidar_sdk) StderrLine: {'line': b'      |                                              \x1b[01;35m\x1b[Kunsigned int\x1b[m\x1b[K\n'}
+[3.219138] (ydlidar_sdk) StderrLine: {'line': b'      |                                             \x1b[32m\x1b[K%lX\x1b[m\x1b[K\n'}
+[3.219336] (ydlidar_sdk) StderrLine: {'line': b'  139 |             \x1b[32m\x1b[K_handle\x1b[m\x1b[K, s, getms() - t);\n'}
+[3.219533] (ydlidar_sdk) StderrLine: {'line': b'      |             \x1b[32m\x1b[K~~~~~~~\x1b[m\x1b[K                           \n'}
+[3.219747] (ydlidar_sdk) StderrLine: {'line': b'      |             \x1b[32m\x1b[K|\x1b[m\x1b[K\n'}
+[3.219946] (ydlidar_sdk) StderrLine: {'line': b'      |             \x1b[32m\x1b[K_size_t {aka long unsigned int}\x1b[m\x1b[K\n'}
+[3.229015] (ydlidar_sdk) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/ros2_WS/src/YDLidar-SDK/./core/base/thread.h:142:42:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%X\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Kunsigned int\x1b[m\x1b[K\xe2\x80\x99, but argument 2 has type \xe2\x80\x98\x1b[01m\x1b[K_size_t\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K-Wformat=\x1b[m\x1b[K]\n'}
+[3.229367] (ydlidar_sdk) StderrLine: {'line': b'  142 |             printf("[YDLIDAR] Thread [0x\x1b[01;35m\x1b[K%X\x1b[m\x1b[K] has been canceled in other thread\\n", \x1b[32m\x1b[K_handle\x1b[m\x1b[K);\n'}
+[3.229610] (ydlidar_sdk) StderrLine: {'line': b'      |                                         \x1b[01;35m\x1b[K~^\x1b[m\x1b[K                                        \x1b[32m\x1b[K~~~~~~~\x1b[m\x1b[K\n'}
+[3.229821] (ydlidar_sdk) StderrLine: {'line': b'      |                                          \x1b[01;35m\x1b[K|\x1b[m\x1b[K                                        \x1b[32m\x1b[K|\x1b[m\x1b[K\n'}
+[3.230030] (ydlidar_sdk) StderrLine: {'line': b'      |                                          \x1b[01;35m\x1b[Kunsigned int\x1b[m\x1b[K                             \x1b[32m\x1b[K_size_t {aka long unsigned int}\x1b[m\x1b[K\n'}
+[3.230239] (ydlidar_sdk) StderrLine: {'line': b'      |                                         \x1b[32m\x1b[K%lX\x1b[m\x1b[K\n'}
+[3.230646] (ydlidar_sdk) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/ros2_WS/src/YDLidar-SDK/./core/base/thread.h:147:74:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%X\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Kunsigned int\x1b[m\x1b[K\xe2\x80\x99, but argument 3 has type \xe2\x80\x98\x1b[01m\x1b[K_size_t\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K-Wformat=\x1b[m\x1b[K]\n'}
+[3.230867] (ydlidar_sdk) StderrLine: {'line': b'  147 |             fprintf(stderr, "[YDLIDAR] An error occurred while thread[0x\x1b[01;35m\x1b[K%X\x1b[m\x1b[K] cancelled!\\n", \x1b[32m\x1b[K_handle\x1b[m\x1b[K);\n'}
+[3.231073] (ydlidar_sdk) StderrLine: {'line': b'      |                                                                         \x1b[01;35m\x1b[K~^\x1b[m\x1b[K                 \x1b[32m\x1b[K~~~~~~~\x1b[m\x1b[K\n'}
+[3.231271] (ydlidar_sdk) StderrLine: {'line': b'      |                                                                          \x1b[01;35m\x1b[K|\x1b[m\x1b[K                 \x1b[32m\x1b[K|\x1b[m\x1b[K\n'}
+[3.231459] (ydlidar_sdk) StderrLine: {'line': b'      |                                                                          \x1b[01;35m\x1b[Kunsigned int\x1b[m\x1b[K      \x1b[32m\x1b[K_size_t {aka long unsigned int}\x1b[m\x1b[K\n'}
+[3.231657] (ydlidar_sdk) StderrLine: {'line': b'      |                                                                         \x1b[32m\x1b[K%lX\x1b[m\x1b[K\n'}
+[3.231851] (ydlidar_sdk) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/ros2_WS/src/YDLidar-SDK/./core/base/thread.h:151:40:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%X\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Kunsigned int\x1b[m\x1b[K\xe2\x80\x99, but argument 2 has type \xe2\x80\x98\x1b[01m\x1b[K_size_t\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K-Wformat=\x1b[m\x1b[K]\n'}
+[3.232068] (ydlidar_sdk) StderrLine: {'line': b'  151 |           printf("[YDLIDAR] Thread [0x\x1b[01;35m\x1b[K%X\x1b[m\x1b[K] has been canceled\\n", \x1b[32m\x1b[K_handle\x1b[m\x1b[K);\n'}
+[3.232292] (ydlidar_sdk) StderrLine: {'line': b'      |                                       \x1b[01;35m\x1b[K~^\x1b[m\x1b[K                        \x1b[32m\x1b[K~~~~~~~\x1b[m\x1b[K\n'}
+[3.232495] (ydlidar_sdk) StderrLine: {'line': b'      |                                        \x1b[01;35m\x1b[K|\x1b[m\x1b[K                        \x1b[32m\x1b[K|\x1b[m\x1b[K\n'}
+[3.232690] (ydlidar_sdk) StderrLine: {'line': b'      |                                        \x1b[01;35m\x1b[Kunsigned int\x1b[m\x1b[K             \x1b[32m\x1b[K_size_t {aka long unsigned int}\x1b[m\x1b[K\n'}
+[3.232881] (ydlidar_sdk) StderrLine: {'line': b'      |                                       \x1b[32m\x1b[K%lX\x1b[m\x1b[K\n'}
+[3.281178] (ydlidar_sdk) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/ydlidar_sdk.dir/src/YDlidarDriver.cpp.o\x1b[0m\n'}
+[3.306610] (ydlidar_sdk) StderrLine: {'line': b'make[2]: *** [CMakeFiles/ydlidar_sdk.dir/build.make:206: CMakeFiles/ydlidar_sdk.dir/src/GSLidarDriver.cpp.o] Interrupt\n'}
+[3.306926] (ydlidar_sdk) StderrLine: {'line': b'make[2]: *** [CMakeFiles/ydlidar_sdk.dir/build.make:154: CMakeFiles/ydlidar_sdk.dir/core/serial/impl/unix/list_ports_linux.cpp.o] Interrupt\n'}
+[3.307142] (ydlidar_sdk) StderrLine: {'line': b'make[2]: *** [CMakeFiles/ydlidar_sdk.dir/build.make:128: CMakeFiles/ydlidar_sdk.dir/core/serial/serial.cpp.o] Interrupt\n'}
+[3.307366] (ydlidar_sdk) StderrLine: {'line': b'make[2]: *** [CMakeFiles/ydlidar_sdk.dir/build.make:180: CMakeFiles/ydlidar_sdk.dir/src/CYdLidar.cpp.o] Interrupt\n'}
+[3.307579] (ydlidar_sdk) StderrLine: {'line': b'make[2]: *** [CMakeFiles/ydlidar_sdk.dir/build.make:193: CMakeFiles/ydlidar_sdk.dir/src/ETLidarDriver.cpp.o] Interrupt\n'}
+[3.307792] (ydlidar_sdk) StderrLine: {'line': b'make[2]: *** [CMakeFiles/ydlidar_sdk.dir/build.make:219: CMakeFiles/ydlidar_sdk.dir/src/SDMLidarDriver.cpp.o] Interrupt\n'}
+[3.310838] (ydlidar_sdk) StderrLine: {'line': b'make[2]: *** [CMakeFiles/ydlidar_sdk.dir/build.make:115: CMakeFiles/ydlidar_sdk.dir/core/network/SimpleSocket.cpp.o] Interrupt\n'}
+[3.312585] (ydlidar_ros2_driver) JobEnded: {'identifier': 'ydlidar_ros2_driver', 'rc': 'SIGINT'}
+[3.315034] (ydlidar_sdk) StderrLine: {'line': b'make[2]: *** [CMakeFiles/ydlidar_sdk.dir/build.make:232: CMakeFiles/ydlidar_sdk.dir/src/YDlidarDriver.cpp.o] Interrupt\n'}
+[3.316738] (ydlidar_sdk) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:344: CMakeFiles/ydlidar_sdk.dir/all] Interrupt\n'}
+[3.317158] (ydlidar_sdk) StderrLine: {'line': b'make: *** [Makefile:163: all] Interrupt\n'}
+[3.318214] (-) TimerEvent: {}
+[3.318981] (ydlidar_sdk) JobEnded: {'identifier': 'ydlidar_sdk', 'rc': 'SIGINT'}
+[3.329678] (-) EventReactorShutdown: {}

@@ -1,0 +1,245 @@
+[0.533s] Invoking command in '/home/ubuntu/ros2_WS/build/ydlidar_ros2_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/install/ydlidar_tg15:/opt/ros/foxy /usr/bin/cmake /home/ubuntu/ros2_WS/src/ydlidar_ros2_driver -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2_WS/install/ydlidar_ros2_driver
+[1.040s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.040s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.041s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.041s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[1.042s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.043s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.043s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.116s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.118s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.340s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[1.494s] -- Found visualization_msgs: 2.0.5 (/opt/ros/foxy/share/visualization_msgs/cmake)
+[1.595s] -- Found std_srvs: 2.0.5 (/opt/ros/foxy/share/std_srvs/cmake)
+[1.616s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.684s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.696s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.696s] -- Configured cppcheck include dirs: /home/ubuntu/ros2_WS/src/ydlidar_ros2_driver/src
+[1.696s] -- Configured cppcheck exclude dirs and/or files: 
+[1.711s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.711s] -- Configured cpplint exclude dirs and/or files: 
+[1.714s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.719s] -- Added test 'lint_cmake' to check CMake code style
+[1.721s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[1.732s] -- Added test 'uncrustify' to check C / C++ code style
+[1.732s] -- Configured uncrustify additional arguments: 
+[1.734s] -- Added test 'xmllint' to check XML markup files
+[1.738s] -- Configuring done
+[1.755s] -- Generating done
+[1.757s] -- Build files have been written to: /home/ubuntu/ros2_WS/build/ydlidar_ros2_driver
+[1.767s] Invoked command in '/home/ubuntu/ros2_WS/build/ydlidar_ros2_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/install/ydlidar_tg15:/opt/ros/foxy /usr/bin/cmake /home/ubuntu/ros2_WS/src/ydlidar_ros2_driver -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2_WS/install/ydlidar_ros2_driver
+[1.770s] Invoking command in '/home/ubuntu/ros2_WS/build/ydlidar_ros2_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/install/ydlidar_tg15:/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/ros2_WS/build/ydlidar_ros2_driver -- -j8 -l8
+[1.817s] [35m[1mScanning dependencies of target ydlidar_ros2_driver_client[0m
+[1.820s] [35m[1mScanning dependencies of target ydlidar_ros2_driver_node[0m
+[1.848s] [ 25%] [32mBuilding CXX object CMakeFiles/ydlidar_ros2_driver_client.dir/src/ydlidar_ros2_driver_client.cpp.o[0m
+[1.876s] [ 50%] [32mBuilding CXX object CMakeFiles/ydlidar_ros2_driver_node.dir/src/ydlidar_ros2_driver_node.cpp.o[0m
+[2.197s] In file included from [01m[K/home/ubuntu/ros2_WS/install/ydlidar_sdk/include/core/base/v8stdint.h:142[m[K,
+[2.198s]                  from [01m[K/home/ubuntu/ros2_WS/install/ydlidar_sdk/include/core/common/DriverInterface.h:2[m[K,
+[2.199s]                  from [01m[K/home/ubuntu/ros2_WS/install/ydlidar_sdk/include/src/CYdLidar.h:48[m[K,
+[2.200s]                  from [01m[K/home/ubuntu/ros2_WS/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:16[m[K:
+[2.201s] [01m[K/home/ubuntu/ros2_WS/install/ydlidar_sdk/include/core/base/ydlidar.h:[m[K In function ‘[01m[Kbool ydlidar::core::base::fileExists(const string&)[m[K’:
+[2.201s] [01m[K/home/ubuntu/ros2_WS/install/ydlidar_sdk/include/core/base/ydlidar.h:183:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_ino[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[2.202s]   183 |   struct stat info = {0[01;35m[K}[m[K;
+[2.203s]       |                        [01;35m[K^[m[K
+[2.203s] [01m[K/home/ubuntu/ros2_WS/install/ydlidar_sdk/include/core/base/ydlidar.h:183:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_nlink[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[2.204s] [01m[K/home/ubuntu/ros2_WS/install/ydlidar_sdk/include/core/base/ydlidar.h:183:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_mode[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[2.205s] [01m[K/home/ubuntu/ros2_WS/install/ydlidar_sdk/include/core/base/ydlidar.h:183:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_uid[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[2.206s] [01m[K/home/ubuntu/ros2_WS/install/ydlidar_sdk/include/core/base/ydlidar.h:183:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_gid[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[2.206s] [01m[K/home/ubuntu/ros2_WS/install/ydlidar_sdk/include/core/base/ydlidar.h:183:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::__pad0[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[2.207s] [01m[K/home/ubuntu/ros2_WS/install/ydlidar_sdk/include/core/base/ydlidar.h:183:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_rdev[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[2.208s] [01m[K/home/ubuntu/ros2_WS/install/ydlidar_sdk/include/core/base/ydlidar.h:183:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_size[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[2.208s] [01m[K/home/ubuntu/ros2_WS/install/ydlidar_sdk/include/core/base/ydlidar.h:183:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_blksize[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[2.209s] [01m[K/home/ubuntu/ros2_WS/install/ydlidar_sdk/include/core/base/ydlidar.h:183:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_blocks[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[2.211s] [01m[K/home/ubuntu/ros2_WS/install/ydlidar_sdk/include/core/base/ydlidar.h:183:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_atim[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[2.211s] [01m[K/home/ubuntu/ros2_WS/install/ydlidar_sdk/include/core/base/ydlidar.h:183:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_mtim[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[2.211s] [01m[K/home/ubuntu/ros2_WS/install/ydlidar_sdk/include/core/base/ydlidar.h:183:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_ctim[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[2.211s] [01m[K/home/ubuntu/ros2_WS/install/ydlidar_sdk/include/core/base/ydlidar.h:183:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::__glibc_reserved[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[2.212s] In file included from [01m[K/home/ubuntu/ros2_WS/install/ydlidar_sdk/include/core/common/DriverInterface.h:3[m[K,
+[2.212s]                  from [01m[K/home/ubuntu/ros2_WS/install/ydlidar_sdk/include/src/CYdLidar.h:48[m[K,
+[2.213s]                  from [01m[K/home/ubuntu/ros2_WS/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:16[m[K:
+[2.213s] [01m[K/home/ubuntu/ros2_WS/install/ydlidar_sdk/include/core/base/thread.h:[m[K In static member function ‘[01m[Kstatic ydlidar::core::base::Thread ydlidar::core::base::Thread::createThread(thread_proc_t, void*)[m[K’:
+[2.213s] [01m[K/home/ubuntu/ros2_WS/install/ydlidar_sdk/include/core/base/thread.h:55:61:[m[K [01;35m[Kwarning: [m[Kcast between incompatible function types from ‘[01m[Kthread_proc_t[m[K’ {aka ‘[01m[Klong unsigned int (*)(void*)[m[K’} to ‘[01m[Kvoid* (*)(void*)[m[K’ [[01;35m[K-Wcast-function-type[m[K]
+[2.213s]    55 |                                    NULL, (void *(*)(void *))[01;35m[Kproc[m[K,
+[2.214s]       |                                                             [01;35m[K^~~~[m[K
+[2.214s] [01m[K/home/ubuntu/ros2_WS/install/ydlidar_sdk/include/core/base/thread.h:[m[K In member function ‘[01m[Kint ydlidar::core::base::Thread::join(long unsigned int)[m[K’:
+[2.214s] [01m[K/home/ubuntu/ros2_WS/install/ydlidar_sdk/include/core/base/thread.h:136:46:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%X[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 2 has type ‘[01m[K_size_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+[2.214s]   136 |           printf("[YDLIDAR DEBUG] Thread [0x[01;35m[K%X[m[K] ready to cancel[%d]\n", [32m[K_handle[m[K, s);
+[2.215s]       |                                             [01;35m[K~^[m[K                          [32m[K~~~~~~~[m[K
+[2.215s]       |                                              [01;35m[K|[m[K                          [32m[K|[m[K
+[2.217s]       |                                              [01;35m[Kunsigned int[m[K               [32m[K_size_t {aka long unsigned int}[m[K
+[2.218s]       |                                             [32m[K%lX[m[K
+[2.221s] [01m[K/home/ubuntu/ros2_WS/install/ydlidar_sdk/include/core/base/thread.h:138:46:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%X[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 2 has type ‘[01m[K_size_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+[2.222s]   138 |           printf("[YDLIDAR DEBUG] Thread [0x[01;35m[K%X[m[K] ready to cancel[%d] time[%u]\n",
+[2.223s]       |                                             [01;35m[K~^[m[K
+[2.223s]       |                                              [01;35m[K|[m[K
+[2.223s]       |                                              [01;35m[Kunsigned int[m[K
+[2.223s]       |                                             [32m[K%lX[m[K
+[2.224s]   139 |             [32m[K_handle[m[K, s, getms() - t);
+[2.224s]       |             [32m[K~~~~~~~[m[K                           
+[2.224s]       |             [32m[K|[m[K
+[2.224s]       |             [32m[K_size_t {aka long unsigned int}[m[K
+[2.224s] [01m[K/home/ubuntu/ros2_WS/install/ydlidar_sdk/include/core/base/thread.h:142:42:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%X[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 2 has type ‘[01m[K_size_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+[2.225s]   142 |             printf("[YDLIDAR] Thread [0x[01;35m[K%X[m[K] has been canceled in other thread\n", [32m[K_handle[m[K);
+[2.225s]       |                                         [01;35m[K~^[m[K                                        [32m[K~~~~~~~[m[K
+[2.225s]       |                                          [01;35m[K|[m[K                                        [32m[K|[m[K
+[2.225s]       |                                          [01;35m[Kunsigned int[m[K                             [32m[K_size_t {aka long unsigned int}[m[K
+[2.225s]       |                                         [32m[K%lX[m[K
+[2.226s] [01m[K/home/ubuntu/ros2_WS/install/ydlidar_sdk/include/core/base/thread.h:147:74:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%X[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 3 has type ‘[01m[K_size_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+[2.226s]   147 |             fprintf(stderr, "[YDLIDAR] An error occurred while thread[0x[01;35m[K%X[m[K] cancelled!\n", [32m[K_handle[m[K);
+[2.226s]       |                                                                         [01;35m[K~^[m[K                 [32m[K~~~~~~~[m[K
+[2.226s]       |                                                                          [01;35m[K|[m[K                 [32m[K|[m[K
+[2.226s]       |                                                                          [01;35m[Kunsigned int[m[K      [32m[K_size_t {aka long unsigned int}[m[K
+[2.227s]       |                                                                         [32m[K%lX[m[K
+[2.227s] [01m[K/home/ubuntu/ros2_WS/install/ydlidar_sdk/include/core/base/thread.h:151:40:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%X[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 2 has type ‘[01m[K_size_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+[2.227s]   151 |           printf("[YDLIDAR] Thread [0x[01;35m[K%X[m[K] has been canceled\n", [32m[K_handle[m[K);
+[2.227s]       |                                       [01;35m[K~^[m[K                        [32m[K~~~~~~~[m[K
+[2.227s]       |                                        [01;35m[K|[m[K                        [32m[K|[m[K
+[2.228s]       |                                        [01;35m[Kunsigned int[m[K             [32m[K_size_t {aka long unsigned int}[m[K
+[2.228s]       |                                       [32m[K%lX[m[K
+[2.298s] In file included from [01m[K/home/ubuntu/ros2_WS/install/ydlidar_sdk/include/core/common/DriverInterface.h:6[m[K,
+[2.299s]                  from [01m[K/home/ubuntu/ros2_WS/install/ydlidar_sdk/include/src/CYdLidar.h:48[m[K,
+[2.300s]                  from [01m[K/home/ubuntu/ros2_WS/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:16[m[K:
+[2.302s] [01m[K/home/ubuntu/ros2_WS/install/ydlidar_sdk/include/core/common/ydlidar_protocol.h:[m[K At global scope:
+[2.304s] [01m[K/home/ubuntu/ros2_WS/install/ydlidar_sdk/include/core/common/ydlidar_protocol.h:302:22:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kdevice_info::firmware_version[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[2.305s]   302 |   device_info di = {0[01;35m[K}[m[K;
+[2.306s]       |                      [01;35m[K^[m[K
+[2.306s] [01m[K/home/ubuntu/ros2_WS/install/ydlidar_sdk/include/core/common/ydlidar_protocol.h:302:22:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kdevice_info::hardware_version[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[2.307s] [01m[K/home/ubuntu/ros2_WS/install/ydlidar_sdk/include/core/common/ydlidar_protocol.h:302:22:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kdevice_info::serialnum[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[2.313s] In file included from [01m[K/home/ubuntu/ros2_WS/install/ydlidar_sdk/include/src/CYdLidar.h:48[m[K,
+[2.314s]                  from [01m[K/home/ubuntu/ros2_WS/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:16[m[K:
+[2.314s] [01m[K/home/ubuntu/ros2_WS/install/ydlidar_sdk/include/core/common/DriverInterface.h:[m[K In member function ‘[01m[Kvirtual bool ydlidar::core::common::DriverInterface::getDeviceInfoEx(device_info&, int)[m[K’:
+[2.316s] [01m[K/home/ubuntu/ros2_WS/install/ydlidar_sdk/include/core/common/DriverInterface.h:268:59:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktype[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[2.319s]   268 |         virtual bool getDeviceInfoEx(device_info &di, [01;35m[Kint type=EPT_Module[m[K)
+[2.320s]       |                                                       [01;35m[K~~~~^~~~~~~~~~~~~~~[m[K
+[2.321s] [01m[K/home/ubuntu/ros2_WS/install/ydlidar_sdk/include/core/common/DriverInterface.h:[m[K In member function ‘[01m[Kvirtual result_t ydlidar::core::common::DriverInterface::getScanFrequency(scan_frequency&, uint32_t)[m[K’:
+[2.321s] [01m[K/home/ubuntu/ros2_WS/install/ydlidar_sdk/include/core/common/DriverInterface.h:316:59:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kfrequency[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[2.321s]   316 |         virtual result_t getScanFrequency([01;35m[Kscan_frequency &frequency[m[K,
+[2.322s]       |                                           [01;35m[K~~~~~~~~~~~~~~~~^~~~~~~~~[m[K
+[2.323s] [01m[K/home/ubuntu/ros2_WS/install/ydlidar_sdk/include/core/common/DriverInterface.h:317:52:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktimeout[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[2.323s]   317 |                                           [01;35m[Kuint32_t timeout = DEFAULT_TIMEOUT[m[K)
+[2.323s]       |                                           [01;35m[K~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.324s] [01m[K/home/ubuntu/ros2_WS/install/ydlidar_sdk/include/core/common/DriverInterface.h:[m[K In member function ‘[01m[Kvirtual result_t ydlidar::core::common::DriverInterface::setScanFrequencyAdd(scan_frequency&, uint32_t)[m[K’:
+[2.324s] [01m[K/home/ubuntu/ros2_WS/install/ydlidar_sdk/include/core/common/DriverInterface.h:331:62:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kfrequency[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[2.324s]   331 |         virtual result_t setScanFrequencyAdd([01;35m[Kscan_frequency &frequency[m[K,
+[2.324s]       |                                              [01;35m[K~~~~~~~~~~~~~~~~^~~~~~~~~[m[K
+[2.324s] [01m[K/home/ubuntu/ros2_WS/install/ydlidar_sdk/include/core/common/DriverInterface.h:332:55:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktimeout[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[2.325s]   332 |                                              [01;35m[Kuint32_t timeout = DEFAULT_TIMEOUT[m[K)
+[2.325s]       |                                              [01;35m[K~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.325s] [01m[K/home/ubuntu/ros2_WS/install/ydlidar_sdk/include/core/common/DriverInterface.h:[m[K In member function ‘[01m[Kvirtual result_t ydlidar::core::common::DriverInterface::setScanFrequencyDis(scan_frequency&, uint32_t)[m[K’:
+[2.325s] [01m[K/home/ubuntu/ros2_WS/install/ydlidar_sdk/include/core/common/DriverInterface.h:346:62:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kfrequency[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[2.325s]   346 |         virtual result_t setScanFrequencyDis([01;35m[Kscan_frequency &frequency[m[K,
+[2.326s]       |                                              [01;35m[K~~~~~~~~~~~~~~~~^~~~~~~~~[m[K
+[2.326s] [01m[K/home/ubuntu/ros2_WS/install/ydlidar_sdk/include/core/common/DriverInterface.h:347:55:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktimeout[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[2.326s]   347 |                                              [01;35m[Kuint32_t timeout = DEFAULT_TIMEOUT[m[K)
+[2.326s]       |                                              [01;35m[K~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.327s] [01m[K/home/ubuntu/ros2_WS/install/ydlidar_sdk/include/core/common/DriverInterface.h:[m[K In member function ‘[01m[Kvirtual result_t ydlidar::core::common::DriverInterface::setScanFrequencyAddMic(scan_frequency&, uint32_t)[m[K’:
+[2.327s] [01m[K/home/ubuntu/ros2_WS/install/ydlidar_sdk/include/core/common/DriverInterface.h:361:65:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kfrequency[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[2.327s]   361 |         virtual result_t setScanFrequencyAddMic([01;35m[Kscan_frequency &frequency[m[K,
+[2.328s]       |                                                 [01;35m[K~~~~~~~~~~~~~~~~^~~~~~~~~[m[K
+[2.329s] [01m[K/home/ubuntu/ros2_WS/install/ydlidar_sdk/include/core/common/DriverInterface.h:362:58:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktimeout[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[2.329s]   362 |                                                 [01;35m[Kuint32_t timeout = DEFAULT_TIMEOUT[m[K)
+[2.329s]       |                                                 [01;35m[K~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.330s] [01m[K/home/ubuntu/ros2_WS/install/ydlidar_sdk/include/core/common/DriverInterface.h:[m[K In member function ‘[01m[Kvirtual result_t ydlidar::core::common::DriverInterface::setScanFrequencyDisMic(scan_frequency&, uint32_t)[m[K’:
+[2.330s] [01m[K/home/ubuntu/ros2_WS/install/ydlidar_sdk/include/core/common/DriverInterface.h:376:65:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kfrequency[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[2.330s]   376 |         virtual result_t setScanFrequencyDisMic([01;35m[Kscan_frequency &frequency[m[K,
+[2.330s]       |                                                 [01;35m[K~~~~~~~~~~~~~~~~^~~~~~~~~[m[K
+[2.330s] [01m[K/home/ubuntu/ros2_WS/install/ydlidar_sdk/include/core/common/DriverInterface.h:377:58:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktimeout[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[2.331s]   377 |                                                 [01;35m[Kuint32_t timeout = DEFAULT_TIMEOUT[m[K)
+[2.331s]       |                                                 [01;35m[K~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.332s] [01m[K/home/ubuntu/ros2_WS/install/ydlidar_sdk/include/core/common/DriverInterface.h:[m[K In member function ‘[01m[Kvirtual result_t ydlidar::core::common::DriverInterface::getSamplingRate(sampling_rate&, uint32_t)[m[K’:
+[2.333s] [01m[K/home/ubuntu/ros2_WS/install/ydlidar_sdk/include/core/common/DriverInterface.h:391:57:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krate[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[2.333s]   391 |         virtual result_t getSamplingRate([01;35m[Ksampling_rate &rate[m[K,
+[2.333s]       |                                          [01;35m[K~~~~~~~~~~~~~~~^~~~[m[K
+[2.335s] [01m[K/home/ubuntu/ros2_WS/install/ydlidar_sdk/include/core/common/DriverInterface.h:392:51:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktimeout[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[2.335s]   392 |                                          [01;35m[Kuint32_t timeout = DEFAULT_TIMEOUT[m[K)
+[2.337s]       |                                          [01;35m[K~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.338s] [01m[K/home/ubuntu/ros2_WS/install/ydlidar_sdk/include/core/common/DriverInterface.h:[m[K In member function ‘[01m[Kvirtual result_t ydlidar::core::common::DriverInterface::setSamplingRate(sampling_rate&, uint32_t)[m[K’:
+[2.338s] [01m[K/home/ubuntu/ros2_WS/install/ydlidar_sdk/include/core/common/DriverInterface.h:406:57:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krate[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[2.338s]   406 |         virtual result_t setSamplingRate([01;35m[Ksampling_rate &rate[m[K,
+[2.338s]       |                                          [01;35m[K~~~~~~~~~~~~~~~^~~~[m[K
+[2.338s] [01m[K/home/ubuntu/ros2_WS/install/ydlidar_sdk/include/core/common/DriverInterface.h:407:51:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktimeout[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[2.338s]   407 |                                          [01;35m[Kuint32_t timeout = DEFAULT_TIMEOUT[m[K)
+[2.338s]       |                                          [01;35m[K~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.339s] [01m[K/home/ubuntu/ros2_WS/install/ydlidar_sdk/include/core/common/DriverInterface.h:[m[K In member function ‘[01m[Kvirtual result_t ydlidar::core::common::DriverInterface::getZeroOffsetAngle(offset_angle&, uint32_t)[m[K’:
+[2.339s] [01m[K/home/ubuntu/ros2_WS/install/ydlidar_sdk/include/core/common/DriverInterface.h:421:59:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kangle[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[2.339s]   421 |         virtual result_t getZeroOffsetAngle([01;35m[Koffset_angle &angle[m[K,
+[2.339s]       |                                             [01;35m[K~~~~~~~~~~~~~~^~~~~[m[K
+[2.339s] [01m[K/home/ubuntu/ros2_WS/install/ydlidar_sdk/include/core/common/DriverInterface.h:422:54:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktimeout[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[2.340s]   422 |                                             [01;35m[Kuint32_t timeout = DEFAULT_TIMEOUT[m[K)
+[2.340s]       |                                             [01;35m[K~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.341s] [01m[K/home/ubuntu/ros2_WS/install/ydlidar_sdk/include/core/common/DriverInterface.h:[m[K In member function ‘[01m[Kvirtual result_t ydlidar::core::common::DriverInterface::setScanHeartbeat(scan_heart_beat&, uint32_t)[m[K’:
+[2.341s] [01m[K/home/ubuntu/ros2_WS/install/ydlidar_sdk/include/core/common/DriverInterface.h:437:60:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kbeat[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[2.341s]   437 |         virtual result_t setScanHeartbeat([01;35m[Kscan_heart_beat &beat[m[K,
+[2.341s]       |                                           [01;35m[K~~~~~~~~~~~~~~~~~^~~~[m[K
+[2.341s] [01m[K/home/ubuntu/ros2_WS/install/ydlidar_sdk/include/core/common/DriverInterface.h:438:52:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktimeout[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[2.341s]   438 |                                           [01;35m[Kuint32_t timeout = DEFAULT_TIMEOUT[m[K)
+[2.341s]       |                                           [01;35m[K~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.341s] [01m[K/home/ubuntu/ros2_WS/install/ydlidar_sdk/include/core/common/DriverInterface.h:[m[K In member function ‘[01m[Kvirtual result_t ydlidar::core::common::DriverInterface::setWorkMode(int, uint8_t)[m[K’:
+[2.342s] [01m[K/home/ubuntu/ros2_WS/install/ydlidar_sdk/include/core/common/DriverInterface.h:469:42:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmode[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[2.342s]   469 |         virtual result_t setWorkMode([01;35m[Kint mode = 0[m[K, uint8_t addr = 0x00) {
+[2.342s]       |                                      [01;35m[K~~~~^~~~~~~~[m[K
+[2.342s] [01m[K/home/ubuntu/ros2_WS/install/ydlidar_sdk/include/core/common/DriverInterface.h:469:60:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kaddr[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[2.342s]   469 |         virtual result_t setWorkMode(int mode = 0, [01;35m[Kuint8_t addr = 0x00[m[K) {
+[2.342s]       |                                                    [01;35m[K~~~~~~~~^~~~~~~~~~~[m[K
+[3.413s] [01m[K/home/ubuntu/ros2_WS/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:[m[K In lambda function:
+[3.413s] [01m[K/home/ubuntu/ros2_WS/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:168:54:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krequest_header[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[3.413s]   168 |     [&laser]([01;35m[Kconst std::shared_ptr<rmw_request_id_t> request_header[m[K,
+[3.413s]       |              [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[3.413s] [01m[K/home/ubuntu/ros2_WS/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:169:56:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kreq[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[3.414s]   169 |   [01;35m[Kconst std::shared_ptr<std_srvs::srv::Empty::Request> req[m[K,
+[3.414s]       |   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[3.414s] [01m[K/home/ubuntu/ros2_WS/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:170:51:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kresponse[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[3.414s]   170 |   [01;35m[Kstd::shared_ptr<std_srvs::srv::Empty::Response> response[m[K) -> bool
+[3.414s]       |   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[3.419s] [01m[K/home/ubuntu/ros2_WS/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:[m[K In lambda function:
+[3.419s] [01m[K/home/ubuntu/ros2_WS/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:178:54:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krequest_header[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[3.419s]   178 |     [&laser]([01;35m[Kconst std::shared_ptr<rmw_request_id_t> request_header[m[K,
+[3.419s]       |              [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[3.420s] [01m[K/home/ubuntu/ros2_WS/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:179:56:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kreq[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[3.420s]   179 |   [01;35m[Kconst std::shared_ptr<std_srvs::srv::Empty::Request> req[m[K,
+[3.420s]       |   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[3.420s] [01m[K/home/ubuntu/ros2_WS/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:180:51:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kresponse[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[3.420s]   180 |   [01;35m[Kstd::shared_ptr<std_srvs::srv::Empty::Response> response[m[K) -> bool
+[3.420s]       |   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[5.567s] [ 75%] [32m[1mLinking CXX executable ydlidar_ros2_driver_node[0m
+[5.841s] [ 75%] Built target ydlidar_ros2_driver_node
+[6.712s] [100%] [32m[1mLinking CXX executable ydlidar_ros2_driver_client[0m
+[6.963s] [100%] Built target ydlidar_ros2_driver_client
+[6.978s] Invoked command in '/home/ubuntu/ros2_WS/build/ydlidar_ros2_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/install/ydlidar_tg15:/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/ros2_WS/build/ydlidar_ros2_driver -- -j8 -l8
+[7.001s] Invoking command in '/home/ubuntu/ros2_WS/build/ydlidar_ros2_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/install/ydlidar_tg15:/opt/ros/foxy /usr/bin/cmake --install /home/ubuntu/ros2_WS/build/ydlidar_ros2_driver
+[7.009s] -- Install configuration: ""
+[7.009s] -- Execute custom install script
+[7.010s] -- Up-to-date symlink: /home/ubuntu/ros2_WS/install/ydlidar_ros2_driver/lib/ydlidar_ros2_driver/ydlidar_ros2_driver_node
+[7.010s] -- Up-to-date symlink: /home/ubuntu/ros2_WS/install/ydlidar_ros2_driver/lib/ydlidar_ros2_driver/ydlidar_ros2_driver_client
+[7.011s] -- Up-to-date symlink: /home/ubuntu/ros2_WS/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/launch/ydlidar.py
+[7.011s] -- Up-to-date symlink: /home/ubuntu/ros2_WS/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/launch/ydlidar_launch.py
+[7.011s] -- Up-to-date symlink: /home/ubuntu/ros2_WS/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/launch/ydlidar_launch_view.py
+[7.012s] -- Up-to-date symlink: /home/ubuntu/ros2_WS/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/G1.yaml
+[7.012s] -- Up-to-date symlink: /home/ubuntu/ros2_WS/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/G2.yaml
+[7.012s] -- Up-to-date symlink: /home/ubuntu/ros2_WS/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/G6.yaml
+[7.012s] -- Up-to-date symlink: /home/ubuntu/ros2_WS/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/GS2.yaml
+[7.012s] -- Up-to-date symlink: /home/ubuntu/ros2_WS/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/TEA.yaml
+[7.013s] -- Up-to-date symlink: /home/ubuntu/ros2_WS/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/TG.yaml
+[7.013s] -- Up-to-date symlink: /home/ubuntu/ros2_WS/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/TminiPro.yaml
+[7.013s] -- Up-to-date symlink: /home/ubuntu/ros2_WS/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/X2.yaml
+[7.013s] -- Up-to-date symlink: /home/ubuntu/ros2_WS/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/X4-Pro.yaml
+[7.013s] -- Up-to-date symlink: /home/ubuntu/ros2_WS/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/X4.yaml
+[7.014s] -- Up-to-date symlink: /home/ubuntu/ros2_WS/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/ydlidar.yaml
+[7.014s] -- Up-to-date symlink: /home/ubuntu/ros2_WS/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/startup/initenv.sh
+[7.015s] -- Up-to-date symlink: /home/ubuntu/ros2_WS/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/config/ydlidar.rviz
+[7.015s] -- Up-to-date symlink: /home/ubuntu/ros2_WS/install/ydlidar_ros2_driver/share/ament_index/resource_index/package_run_dependencies/ydlidar_ros2_driver
+[7.015s] -- Up-to-date symlink: /home/ubuntu/ros2_WS/install/ydlidar_ros2_driver/share/ament_index/resource_index/parent_prefix_path/ydlidar_ros2_driver
+[7.016s] -- Up-to-date symlink: /home/ubuntu/ros2_WS/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/environment/ament_prefix_path.sh
+[7.016s] -- Up-to-date symlink: /home/ubuntu/ros2_WS/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/environment/ament_prefix_path.dsv
+[7.016s] -- Up-to-date symlink: /home/ubuntu/ros2_WS/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/environment/path.sh
+[7.017s] -- Up-to-date symlink: /home/ubuntu/ros2_WS/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/environment/path.dsv
+[7.017s] -- Up-to-date symlink: /home/ubuntu/ros2_WS/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/local_setup.bash
+[7.017s] -- Up-to-date symlink: /home/ubuntu/ros2_WS/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/local_setup.sh
+[7.018s] -- Up-to-date symlink: /home/ubuntu/ros2_WS/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/local_setup.zsh
+[7.018s] -- Up-to-date symlink: /home/ubuntu/ros2_WS/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/local_setup.dsv
+[7.018s] -- Symlinking: /home/ubuntu/ros2_WS/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.dsv
+[7.029s] -- Up-to-date symlink: /home/ubuntu/ros2_WS/install/ydlidar_ros2_driver/share/ament_index/resource_index/packages/ydlidar_ros2_driver
+[7.030s] -- Up-to-date symlink: /home/ubuntu/ros2_WS/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/cmake/ydlidar_ros2_driverConfig.cmake
+[7.030s] -- Up-to-date symlink: /home/ubuntu/ros2_WS/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/cmake/ydlidar_ros2_driverConfig-version.cmake
+[7.030s] -- Up-to-date symlink: /home/ubuntu/ros2_WS/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.xml
+[7.032s] Invoked command in '/home/ubuntu/ros2_WS/build/ydlidar_ros2_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/install/ydlidar_tg15:/opt/ros/foxy /usr/bin/cmake --install /home/ubuntu/ros2_WS/build/ydlidar_ros2_driver

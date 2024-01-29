@@ -1,0 +1,1 @@
+/home/ubuntu/ros2_WS/src/ydlidar_tg15/launch/2dmapping.launch.py
